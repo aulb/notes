@@ -7,6 +7,9 @@ Everytime we encounter a new lowest price point, we buy and start new.
 With division: beware of 0s in the array.
 Without division: Make left or right array. Left at index `i` meaning the product of all the numbers to the left of index `i`.
 
+# Move Zeroes
+Fast and slow pointer. Slow to keep track of where the start of the zeros are.
+
 # Contains Duplicate
 Literally just use hash map. Unless its the values are between `[1, array.length]`, no tricks are needed.
 
