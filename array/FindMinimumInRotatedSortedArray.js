@@ -56,15 +56,15 @@ This condition: m < l < h is invalid (unsorted)
 
 const binarySearch = (array, target) => {
   const n = array.length;
-  let h = n - 1;
+  let r = n - 1;
   let l = 0;
 
-  while (m >= l && m < h) {
-    const m = l + (h - l) / 2;
+  while (r >= l) {
+    const m = l + (r - l) / 2;
     const currValue = array[m];
     if (currValue === target) return m;
     if (currValue < target) l = m + 1;
-    if (currValue > target) h = m;
+    if (currValue > target) r = m - 1;
   }
 
   return -1;

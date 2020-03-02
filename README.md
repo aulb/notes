@@ -8,9 +8,9 @@
 |[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|✅|
 |[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)||
 |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|✅|
-|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)||
+|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|✅|
 |[3Sum](https://leetcode.com/problems/3sum/)||
-|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)||
+|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|🈲|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -40,7 +40,7 @@
 |[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)||
 |**Interval**|
 |[Insert Interval](https://leetcode.com/problems/insert-interval/)||
-|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)||
+|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|✅|
 |[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)||
 |[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)||
 |[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)||
@@ -63,7 +63,7 @@
 |[Valid Anagram](https://leetcode.com/problems/valid-anagram/)||
 |[Group Anagrams](https://leetcode.com/problems/group-anagrams/)||
 |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)||
-|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)||
+|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|✅|
 |[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
 |[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||

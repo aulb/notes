@@ -18,26 +18,12 @@ We only care about the previous value if its greater than 0.
 
 # Find Minimum in Rotated Sorted Array
 Needed: Binary search mastery.
-```
-/**
- * Note: Boundary: [l, h)
- * Floor because I am doing l = m + 1. Need to keep everything in bound.
- * Ceiling would cause it to go out of bound, skipping some elements.
- */
-const binarySearch = (array, target) => {
-  const n = array.length;
-  let h = n;
-  let l = 0;
-  let m = Math.floor((h + l) / 2);
+Need to keep the `while` condition simple. Right is bigger or equal to left.
 
-  while (m >= l && m < h) {
-    const currValue = array[m];
-    if (currValue === target) return m;
-    if (currValue < target) l = m + 1;
-    if (currValue > target) h = m;
-    m = Math.floor((h + l) / 2);
-  }
+# Search in Rotated Sorted Array
+Its important inside the `while` to have a solid terminating condition.
+Its possible that `left` and `right` to be the same. If its not `>=` then it will get an inf loop.
 
-  return -1;
-};
-```
+# Container with Most Water
+[Solution Explanation](https://leetcode.com/problems/container-with-most-water/discuss/6099/yet-another-way-to-see-what-happens-in-the-on-algorithm).
+"Greedy window".
