@@ -30,3 +30,6 @@ Its possible that `left` and `right` to be the same. If its not `>=` then it wil
 # Container with Most Water
 [Solution Explanation](https://leetcode.com/problems/container-with-most-water/discuss/6099/yet-another-way-to-see-what-happens-in-the-on-algorithm).
 "Greedy window".
+
+# First Bad Version
+*FACEBOOK* question.
