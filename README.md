@@ -45,18 +45,19 @@
 |**Interval**|
 |[Insert Interval](https://leetcode.com/problems/insert-interval/)||
 |[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|✅|
-|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)||
+|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|🈲|
 |[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)||
 |[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)||
 |**Linked List**|
-|[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)||
-|[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)||
+|[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)|✅|
+|[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)|✅|
+|➕ [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)||
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)||
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)||
 |[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)||
 |[Reorder List](https://leetcode.com/problems/reorder-list/)||
 |**Matrix**|
-|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)||
+|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|✅|
 |[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)||
 |[Rotate Image](https://leetcode.com/problems/rotate-image/)||
 |[Word Search](https://leetcode.com/problems/word-search/)||
@@ -93,4 +94,4 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **19/82**
+Completion: **22/83**
