@@ -74,14 +74,14 @@
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
 |**Tree**|
-|[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)||
+|[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Same Tree](https://leetcode.com/problems/same-tree/)|✅|
-|[Invert/Flip BT](https://leetcode.com/problems/invert-binary-tree/)||
+|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|✅|
+|[Invert/Flip BT](https://leetcode.com/problems/invert-binary-tree/)|✅|
 |[BT Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)||
-|[BT Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)||
+|[BT Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|✅|
 |[Serialize & Deserialize BT](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)||
-|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)||
-|[Construct BT from Preorder & Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)||
+|[Construct BT from Preorder & Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|✅|
 |[Validate BST](https://leetcode.com/problems/validate-binary-search-tree/)||
 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)||
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)||
@@ -94,4 +94,4 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **22/83**
+Completion: **27/83**
