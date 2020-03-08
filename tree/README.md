@@ -14,4 +14,4 @@ k = 1 means smallest. All the element to the left are smallest, if k is lesser t
 Basically counting left/right nodes.
 
 # LCA
-First in between is always the lowest common ancestor. By BST property.
+First in between is always the lowest common ancestor. By BST property. Also read the function signature!
