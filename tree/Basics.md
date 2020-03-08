@@ -2,6 +2,14 @@
 Just a regular two child'd tree y'all.
 When it be searchin it needs to obey the rule (left small, right big).
 
+Counting nodes:
+```
+const countNodes = node => {
+  if (!node) return 0;
+  return 1 + countNodes(node.left) + countNodes(node.right);
+};
+```
+
 # Breadth First Search
 - Good to find a "shortest path"
 - Uses a queue
@@ -34,3 +42,8 @@ In a binary search tree ordered such that in each node the key is greater than a
 Opposite of inorder (descending sorted order).
 
 ## Postorder: LEFT, RIGHT, CURR
+
+# Binary Search Tree
+All to the left of a node is smaller, and you know the rest.
+Insert: O(logn)
+Delete: O(logn)
