@@ -82,7 +82,7 @@
 |[BT Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|✅|
 |[Serialize & Deserialize BT](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)||
 |[Construct BT from Preorder & Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|✅|
-|[Validate BST](https://leetcode.com/problems/validate-binary-search-tree/)||
+|[Validate BST](https://leetcode.com/problems/validate-binary-search-tree/)|✅|
 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)||
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)||
 |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)||
@@ -94,4 +94,4 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **27/83**
+Completion: **28/83**

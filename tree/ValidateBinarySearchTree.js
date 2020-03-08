@@ -8,44 +8,20 @@
 /**
  * @param {TreeNode} root
  * @return {boolean}
- * RECURSIVE, its enough to get the min/max value from one above
+ * RECURSIVE, its NOT enough to get the min/max value from one above
+ * We need the min max boundary everytime, don't forget to not use the tertiary operator
+ * min = 0
+ * Mistake 1: 0 ? condition A : true;
  */
-const isBiggerThan = (node, value) => node ? node.val > value : true;
-const isSmallerThan = (node, value) => node ? node.val < value : true;
-
-const checkSelfBSTProp = root => {
-  if (!root) return true;
-  // Check self BST prop
-  // Check all values are lower than maxVal
-  // Check recursive left and right
-  const { left, right, val } = root;
-  const leftCheck = left ? val > left.val : true;
-  const rightCheck = right ? right.val > val : true;
-  return leftCheck && rightCheck;
-};
-
-const leftHelper = (root, maxVal) => {
+const isNodeValueInBetween = (root, min, max) => {
   if (!root) return true;
   const { left, right, val } = root;
-  const leftChildCheck = isSmallerThan(left, maxVal);
-  const selfCheck = isSmallerThan(root, maxVal);
-  const rightChildCheck = isSmallerThan(right, maxVal);
-  const valCheck = leftChildCheck && selfCheck && rightChildCheck;
-  return checkSelfBSTProp(root) && valCheck && leftHelper(left, val) && rightHelper(right, val);
-};
-
-const rightHelper = (root, minVal) => {
-  if (!root) return true;
-  const { left, right, val } = root;
-  const leftChildCheck = isBiggerThan(left, minVal);
-  const selfCheck = isBiggerThan(root, minVal);
-  const rightChildCheck = isBiggerThan(right, minVal);
-  const valCheck = leftChildCheck && selfCheck && rightChildCheck;
-  return checkSelfBSTProp(root) && valCheck && leftHelper(left, val) && rightHelper(right, val);
+  const isMoreThanMin = typeof min === 'number' ? val > min : true;
+  const isLessThanMax = typeof max === 'number' ? max > val : true;
+  return isMoreThanMin && isLessThanMax && isNodeValueInBetween(left, min, val) && isNodeValueInBetween(right, val, max);
 };
 
 const isValidBST = root => {
   if (!root) return true;
-  const { left, right, val } = root;
-  return checkSelfBSTProp(root) && leftHelper(left, val) && rightHelper(right, val);
+  return isNodeValueInBetween(root, null, null);
 };
