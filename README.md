@@ -24,7 +24,7 @@
 |[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|🈲|
 |**Dynamic Programming**|
 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)||
-|[Coin Change](https://leetcode.com/problems/coin-change/)||
+|[Coin Change](https://leetcode.com/problems/coin-change/)|✅|
 |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)||
 |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)||
 |[Word Break Problem](https://leetcode.com/problems/word-break/)||
@@ -74,6 +74,7 @@
 |[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
+|➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Same Tree](https://leetcode.com/problems/same-tree/)|✅|
@@ -95,4 +96,4 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **34/84**
+Completion: **35/85**
