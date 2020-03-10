@@ -15,6 +15,7 @@
 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|✅|
 |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|🈲|
 |➕ [First Bad Version](https://leetcode.com/problems/first-bad-version)|✅|
+|➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -46,8 +47,8 @@
 |[Insert Interval](https://leetcode.com/problems/insert-interval/)||
 |[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|✅|
 |[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|🈲|
-|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)||
-|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)||
+|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|✅|
+|[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|✅|
 |**Linked List**|
 |[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)|✅|
 |[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)|✅|
@@ -94,4 +95,4 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **32/83**
+Completion: **34/84**

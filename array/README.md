@@ -33,3 +33,13 @@ Its possible that `left` and `right` to be the same. If its not `>=` then it wil
 
 # First Bad Version
 *FACEBOOK* question.
+
+# Two Sum
+Given nums = [2, 11, 7, 15], target = 9,
+Is there a 7? No? Ok 2 is at 0.
+Is there a -2? No? Ok 11 is at 1.
+Is there a 2? Yes! 2 is at 0, 7 is at 2. Done.
+
+# 3Sum
+Why can I only check the rest of the array?
+[Explanation](https://leetcode.com/problems/3sum/discuss/232712/Best-Python-Solution-(Explained))
