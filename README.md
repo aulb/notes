@@ -31,6 +31,7 @@
 |[Combination Sum](https://leetcode.com/problems/combination-sum-iv/)||
 |[House Robber](https://leetcode.com/problems/house-robber/)|✅|
 |[House Robber II](https://leetcode.com/problems/house-robber-ii/)|✅|
+|➕ [House Robber III](https://leetcode.com/problems/house-robber-iii/)||
 |[Decode Ways](https://leetcode.com/problems/decode-ways/)||
 |[Unique Paths](https://leetcode.com/problems/unique-paths/)||
 |[Jump Game](https://leetcode.com/problems/jump-game/)||
@@ -96,4 +97,4 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **37/85**
+Completion: **38/86**
