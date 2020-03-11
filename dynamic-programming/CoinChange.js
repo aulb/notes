@@ -15,6 +15,26 @@ const coinChange = (coins, amount) => {
 };
 
 // EXTRA! And also all unique values
+const noCoin = -1;
 const getCoinChange = (coins, amount) => {
+  const lookup = new Array(amount + 1).fill(Infinity);
+  const coinLookup = new Array(amount + 1).fill(noCoin);
 
+  for (let i = 0; i < coins.length; i++) {
+    const coin = coins[i];
+    for (let j = coin; j < lookup.length; j++) {
+      if (lookup[j - coin] + 1 > lookup[j]) {
+        coinLookup[j] = coin;
+        lookup[j] = lookup[j - coin] + 1;
+      }
+    }
+  }
+
+  let leftover = amount;
+  const coinChange = [];
+  while (coinLookup[leftover] !== noCoin) {
+    coinChange.push(coinLookup[leftover]);
+    leftover = leftover - coinLookup[leftover];
+  }
+  return coinChange;
 };
