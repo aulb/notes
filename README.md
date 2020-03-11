@@ -23,7 +23,7 @@
 |[Missing Number](https://leetcode.com/problems/missing-number/)|✅|
 |[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|🈲|
 |**Dynamic Programming**|
-|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)||
+|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|✅|
 |[Coin Change](https://leetcode.com/problems/coin-change/)|✅|
 |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)||
 |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)||
@@ -97,4 +97,4 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **38/86**
+Completion: **39/86**
