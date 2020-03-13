@@ -25,7 +25,7 @@
 |**Dynamic Programming**|
 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|✅|
 |[Coin Change](https://leetcode.com/problems/coin-change/)|✅|
-|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)||
+|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|✅|
 |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)||
 |[Word Break Problem](https://leetcode.com/problems/word-break/)||
 |[Combination Sum](https://leetcode.com/problems/combination-sum-iv/)||
@@ -34,7 +34,7 @@
 |➕ [House Robber III](https://leetcode.com/problems/house-robber-iii/)||
 |[Decode Ways](https://leetcode.com/problems/decode-ways/)||
 |[Unique Paths](https://leetcode.com/problems/unique-paths/)|✅|
-|➕ [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)||
+|➕ [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|✅|
 |[Jump Game](https://leetcode.com/problems/jump-game/)||
 |**Graph**|
 |[Clone Graph](https://leetcode.com/problems/clone-graph/)||
@@ -98,4 +98,4 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **40/87**
+Completion: **42/87**
