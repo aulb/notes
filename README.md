@@ -26,7 +26,7 @@
 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|✅|
 |[Coin Change](https://leetcode.com/problems/coin-change/)|✅|
 |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|✅|
-|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)||
+|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|✅|
 |[Word Break Problem](https://leetcode.com/problems/word-break/)||
 |[Combination Sum](https://leetcode.com/problems/combination-sum-iv/)||
 |[House Robber](https://leetcode.com/problems/house-robber/)|✅|
@@ -98,4 +98,7 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **42/87**
+Completion: **43/87**
+
+[Up next](https://github.com/donnemartin/system-design-primer).
+[Reverse Interview](https://github.com/viraptor/reverse-interview/blob/master/README.md)

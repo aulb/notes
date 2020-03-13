@@ -20,3 +20,6 @@ Watch out for gotcha! cases. Start is blocked, pathway around start is blocked, 
 # Longest Increasing Subsequence
 [Explanation](https://www.youtube.com/watch?v=CE2b_-XfVDk) O(n^2).
 O(nlogn) is possible, patience sort algorithm (a little convoluted).
+
+# Longest Common Subsequence
+[Explanation](https://www.youtube.com/watch?v=NnD96abizww) O(nm) space and runtime.
