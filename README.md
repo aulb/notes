@@ -16,6 +16,7 @@
 |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|🈲|
 |➕ [First Bad Version](https://leetcode.com/problems/first-bad-version)|✅|
 |➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
+|➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -36,6 +37,7 @@
 |[Unique Paths](https://leetcode.com/problems/unique-paths/)|✅|
 |➕ [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|✅|
 |[Jump Game](https://leetcode.com/problems/jump-game/)||
+|➕ [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)||
 |**Graph**|
 |[Clone Graph](https://leetcode.com/problems/clone-graph/)||
 |[Course Schedule](https://leetcode.com/problems/course-schedule/)||
@@ -92,13 +94,15 @@
 |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)||
 |[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)||
 |[Word Search II](https://leetcode.com/problems/word-search-ii/)||
+|➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)||
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)||
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **43/87**
+Completion: **43/90**
 
-[Up next](https://github.com/donnemartin/system-design-primer).
+[Up next](https://github.com/donnemartin/system-design-primer)
+
 [Reverse Interview](https://github.com/viraptor/reverse-interview/blob/master/README.md)
