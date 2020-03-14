@@ -16,7 +16,8 @@
 |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|🈲|
 |➕ [First Bad Version](https://leetcode.com/problems/first-bad-version)|✅|
 |➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
-|➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)||
+|➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|✅|
+|➕ [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -101,7 +102,7 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 
-Completion: **43/90**
+Completion: **45/91**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
