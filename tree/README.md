@@ -15,3 +15,9 @@ Basically counting left/right nodes.
 
 # LCA
 First in between is always the lowest common ancestor. By BST property. Also read the function signature!
+
+# Binary Tree Max Path Sum
+[Explanation](https://leetcode.com/problems/binary-tree-maximum-path-sum/discuss/39775/Accepted-short-solution-in-Java)
+
+# Implement Trie
+You can count on hash tables. Iterate through with hash tables.
