@@ -18,13 +18,13 @@
 |➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
 |➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|✅|
 |➕ [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|✅|
-|➕ [Task Scheduler](https://leetcode.com/problems/task-scheduler/)||
+|➕ [Task Scheduler](https://leetcode.com/problems/task-scheduler/)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
 |[Counting Bits](https://leetcode.com/problems/counting-bits/)|✅|
 |[Missing Number](https://leetcode.com/problems/missing-number/)|✅|
-|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|🈲|
+|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|✅|
 |**Dynamic Programming**|
 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|✅|
 |[Coin Change](https://leetcode.com/problems/coin-change/)|✅|
@@ -107,7 +107,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)||
 
-Completion: **50/94**
+Completion: **52/95**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

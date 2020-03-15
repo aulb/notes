@@ -14,4 +14,8 @@ Multiplying by 2: `<< 1`
 `n * (n + 1) / 2`
 
 # Reverse Bits
-Will not do.
+You can kill off `n` so. Also need to ask, 64 or 32 bit system? Assume 32.
+We need to examine the bit one by one.
+Powerful tool is to
+1) Shift (multiply or divide by 2)
+2) Examine the first bit, `n & 1`

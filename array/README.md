@@ -46,3 +46,5 @@ Why can I only check the rest of the array?
 
 # Task Scheduler
 Was asked by "Rbrc".
+Think outside the box, the solution is simpler than you think.
+Outside the box: Each tasks does NOT have to be executed right when the cooldown is done.
