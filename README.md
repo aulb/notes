@@ -2,7 +2,7 @@
 |:--|:--:|
 |**Array**|
 |[Two Sum](https://leetcode.com/problems/two-sum/)|✅|
-|[3Sum](https://leetcode.com/problems/3sum/)||
+|[3Sum](https://leetcode.com/problems/3sum/)|✅|
 |[Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|✅|
 |➕ [Best Time to Buy & Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|✅|
 |➕ [Best Time to Buy & Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)||
@@ -107,7 +107,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)||
 
-Completion: **52/95**
+Completion: **53/95**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

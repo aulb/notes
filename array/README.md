@@ -41,7 +41,7 @@ Is there a -2? No? Ok 11 is at 1.
 Is there a 2? Yes! 2 is at 0, 7 is at 2. Done.
 
 # 3Sum
-Why can I only check the rest of the array?
+Why can I only check the rest of the array? Because suppose the PREVIOUS number in the iteration is included, then during finding the two sum, we should've found something
 [Explanation](https://leetcode.com/problems/3sum/discuss/232712/Best-Python-Solution-(Explained))
 
 # Task Scheduler
