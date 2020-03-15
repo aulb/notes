@@ -17,7 +17,8 @@
 |➕ [First Bad Version](https://leetcode.com/problems/first-bad-version)|✅|
 |➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
 |➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|✅|
-|➕ [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)||
+|➕ [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|✅|
+|➕ [Task Scheduler](https://leetcode.com/problems/task-scheduler/)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -29,7 +30,7 @@
 |[Coin Change](https://leetcode.com/problems/coin-change/)|✅|
 |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|✅|
 |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|✅|
-|[Word Break Problem](https://leetcode.com/problems/word-break/)||
+|[Word Break Problem](https://leetcode.com/problems/word-break/)|✅|
 |[Combination Sum](https://leetcode.com/problems/combination-sum-iv/)||
 |[House Robber](https://leetcode.com/problems/house-robber/)|✅|
 |[House Robber II](https://leetcode.com/problems/house-robber-ii/)|✅|
@@ -66,7 +67,7 @@
 |[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|✅|
 |[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)||
 |[Rotate Image](https://leetcode.com/problems/rotate-image/)||
-|[Word Search](https://leetcode.com/problems/word-search/)||
+|[Word Search](https://leetcode.com/problems/word-search/)|✅|
 |**String**|
 |[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
@@ -80,6 +81,7 @@
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
+|➕ [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Same Tree](https://leetcode.com/problems/same-tree/)|✅|
@@ -105,7 +107,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)||
 
-Completion: **47/93**
+Completion: **50/94**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

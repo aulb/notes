@@ -10,3 +10,14 @@ if (!cell[i][j]) {
 ```
 However the `cell[0][0]` is special and thus need an extra care.
 Start iterating from `cell[1][1]`. Lastly check if `cell[0][0]` is zero and finish off.
+
+# Word Search
+This is NOT a simple DFS or BFS. Its more complicated.
+Using tries are too complicated.
+
+Remember to not be wasteful.
+`word_to_find: ABCD` first letter: `C` then skip everything.
+The solution I use uses no extra storage to track `wordSoFar`, instead it modifies the matrix
+
+Runtime: O(nm) n = element in matrix, m = element in word
+The naive implementation has a way nastier runtime.

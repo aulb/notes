@@ -43,3 +43,6 @@ Is there a 2? Yes! 2 is at 0, 7 is at 2. Done.
 # 3Sum
 Why can I only check the rest of the array?
 [Explanation](https://leetcode.com/problems/3sum/discuss/232712/Best-Python-Solution-(Explained))
+
+# Task Scheduler
+Was asked by "Rbrc".
