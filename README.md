@@ -65,9 +65,10 @@
 |[Reorder List](https://leetcode.com/problems/reorder-list/)||
 |**Matrix**|
 |[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|✅|
-|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)||
 |[Rotate Image](https://leetcode.com/problems/rotate-image/)||
 |[Word Search](https://leetcode.com/problems/word-search/)|✅|
+|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)||
+|➕ [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)||
 |**String**|
 |[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
@@ -77,7 +78,8 @@
 |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|✅|
 |➕ [Valid Parentheses II](https://leetcode.com/problems/valid-parentheses-ii/)|✅|
 |[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|✅|
-|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)||
+|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|✅|
+|➕ [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)||
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
@@ -105,9 +107,9 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 |➕ **Number**|
-|➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)||
+|➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **53/95**
+Completion: **55/97**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
