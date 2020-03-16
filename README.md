@@ -99,7 +99,6 @@
 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|✅|
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|✅|
 |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|✅|
-|➕ [Implement Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)||
 |[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)||
 |[Word Search II](https://leetcode.com/problems/word-search-ii/)||
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
@@ -111,7 +110,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **58/99**
+Completion: **58/98**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
