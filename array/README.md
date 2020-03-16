@@ -48,3 +48,15 @@ Why can I only check the rest of the array? Because suppose the PREVIOUS number 
 Was asked by "Rbrc".
 Think outside the box, the solution is simpler than you think.
 Outside the box: Each tasks does NOT have to be executed right when the cooldown is done.
+
+# Subarray Sum Equals K
+We can always generate all possible subarray in O(n^2) time. For each subarray, calculate the sum and see if it matches with the target `k`. Runtime is O(n^3).
+
+To bring it down to O(n^2), we can call upon a useful technique and make a cumulative sum array. We can use this cumulative sum array to calculate the value between to indices.
+`sum(nums between 1 to 3]) = cumulativeSum at index 3 - cumulativeSum at index 1`.
+Now we can iterate the same way as before and up the count.
+
+To bring it down to linear time.
+*Cumulative sum up to two indices, say **i** and **j** is at a difference of **k**.*
+*Further, for every sum encountered, we also determine the number of times the sum `sum - k` has occured already, since it will determine the number of times a subarray with sum `k` has occured up to the current index. We increment the count by the same amount.*
+i.e: We can make two different subarrays with sum `k` at index `i`.

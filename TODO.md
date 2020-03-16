@@ -6,7 +6,13 @@
 - Longest Palindromic Subsequence
 - Longest Palindromic Substring
 
-## Practice Again:
+## Practice Again!!
+- Find rotated array
 - Spiral Matrix
+- Meeting Rooms (I && II)
 - Longest Common Subsequence
 - Longest Palindromic Substring
+- Longest Palindromic Subsequence
+
+## Cram Mode:
+- Subarray Sum Equals k

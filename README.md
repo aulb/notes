@@ -19,6 +19,8 @@
 |➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|✅|
 |➕ [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|✅|
 |➕ [Task Scheduler](https://leetcode.com/problems/task-scheduler/)|✅|
+|➕ [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|✅|
+|➕ [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -79,7 +81,7 @@
 |➕ [Valid Parentheses II](https://leetcode.com/problems/valid-parentheses-ii/)|✅|
 |[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|✅|
 |[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|✅|
-|➕ [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)||
+|➕ [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|✅|
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
@@ -109,7 +111,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **55/97**
+Completion: **58/99**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
