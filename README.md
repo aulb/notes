@@ -73,6 +73,8 @@
 |[Word Search](https://leetcode.com/problems/word-search/)|✅|
 |[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)||
 |➕ [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)||
+|➕ [Maximal Square](https://leetcode.com/problems/maximal-square/)|✅|
+|➕ [Maximal Rectangle](https://leetcode.com/problems/maximal-square/)||
 |**String**|
 |[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
@@ -113,7 +115,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **60/101**
+Completion: **61/103**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
