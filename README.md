@@ -39,7 +39,7 @@
 |[House Robber](https://leetcode.com/problems/house-robber/)|✅|
 |[House Robber II](https://leetcode.com/problems/house-robber-ii/)|✅|
 |➕ [House Robber III](https://leetcode.com/problems/house-robber-iii/)||
-|[Decode Ways](https://leetcode.com/problems/decode-ways/)|✅|
+|[Decode Ways](https://leetcode.com/problems/decode-ways/)||
 |[Unique Paths](https://leetcode.com/problems/unique-paths/)|✅|
 |➕ [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|✅|
 |[Jump Game](https://leetcode.com/problems/jump-game/)||
@@ -86,7 +86,7 @@
 |➕ [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|✅|
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
-|➕ [ecode String](https://leetcode.com/problems/decode-string/)||
+|➕ [Decode String](https://leetcode.com/problems/decode-string/)|✅|
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
 |➕ [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/)|✅|
 |**Tree**|
