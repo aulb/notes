@@ -21,6 +21,8 @@
 |➕ [Task Scheduler](https://leetcode.com/problems/task-scheduler/)|✅|
 |➕ [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|✅|
 |➕ [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|✅|
+|➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
+|➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -37,7 +39,7 @@
 |[House Robber](https://leetcode.com/problems/house-robber/)|✅|
 |[House Robber II](https://leetcode.com/problems/house-robber-ii/)|✅|
 |➕ [House Robber III](https://leetcode.com/problems/house-robber-iii/)||
-|[Decode Ways](https://leetcode.com/problems/decode-ways/)||
+|[Decode Ways](https://leetcode.com/problems/decode-ways/)|✅|
 |[Unique Paths](https://leetcode.com/problems/unique-paths/)|✅|
 |➕ [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|✅|
 |[Jump Game](https://leetcode.com/problems/jump-game/)||
@@ -84,6 +86,7 @@
 |➕ [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|✅|
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
+|➕ [ecode String](https://leetcode.com/problems/decode-string/)||
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
 |➕ [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/)|✅|
 |**Tree**|
@@ -110,7 +113,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **58/98**
+Completion: **60/101**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

@@ -60,3 +60,9 @@ To bring it down to linear time.
 *Cumulative sum up to two indices, say **i** and **j** is at a difference of **k**.*
 *Further, for every sum encountered, we also determine the number of times the sum `sum - k` has occured already, since it will determine the number of times a subarray with sum `k` has occured up to the current index. We increment the count by the same amount.*
 i.e: We can make two different subarrays with sum `k` at index `i`.
+
+# Implement Queue Using Stacks
+More straight forward than you think. Peek should do something extra for you.
+
+# Implement Stack Using Queues
+Also more straight forward, O(n) for one of the method is fine.
