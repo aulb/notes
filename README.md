@@ -23,6 +23,7 @@
 |➕ [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|✅|
 |➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
 |➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
+|➕ [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -86,7 +87,7 @@
 |[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|✅|
 |[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|✅|
 |➕ [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|✅|
-|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)||
+|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|✅|
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
 |➕ [Decode String](https://leetcode.com/problems/decode-string/)|✅|
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
@@ -115,7 +116,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **61/103**
+Completion: **63/104**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

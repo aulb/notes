@@ -4,14 +4,14 @@
  * @return {string}
  */
 const minWindow = (s, t) => {
-  let minWindow = '';
-  if (!s.length) return minWindow;
+  if (!s.length) return '';
 
   // Only decrease if the counter -- >= 0
   // Only increase if the counter ++ > 0
   let charactersLeft = t.length;
   let left = 0;
   let right = 0;
+  let minWindow = '';
 
   // Build counter
   const tMap = {};

@@ -11,8 +11,10 @@
 - Spiral Matrix
 - Meeting Rooms (I && II)
 - Longest Common Subsequence
-- Longest Palindromic Substring
-- Longest Palindromic Subsequence
+- Longest Palindromic Substring // Watch Tushar
+- Longest Palindromic Subsequence // Watch Tushar
 
 ## Cram Mode:
 - Subarray Sum Equals k
+
+Prevent overflow: `(left + (right - left)) / 2`

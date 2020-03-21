@@ -11,3 +11,6 @@ I like the expanding center idea. Its intuitive. O(n^2) runtime. Normal linear r
 
 # Longest Palindromic Subsequence
 [Explanation](https://www.youtube.com/watch?v=_nCsPn7_OgI)
+
+# Palindromic Substrings
+Expanding circles... O(n^3) is naive, with this we can bring back to O(n^2).
