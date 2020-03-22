@@ -43,7 +43,7 @@
 |[Decode Ways](https://leetcode.com/problems/decode-ways/)||
 |[Unique Paths](https://leetcode.com/problems/unique-paths/)|✅|
 |➕ [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|✅|
-|[Jump Game](https://leetcode.com/problems/jump-game/)||
+|[Jump Game](https://leetcode.com/problems/jump-game/)|✅|
 |➕ [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)||
 |**Graph**|
 |[Clone Graph](https://leetcode.com/problems/clone-graph/)||
@@ -66,7 +66,7 @@
 |➕ [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)||
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|✅|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)||
-|[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)||
+|[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|✅|
 |[Reorder List](https://leetcode.com/problems/reorder-list/)||
 |**Matrix**|
 |[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|✅|
@@ -116,7 +116,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **67/104**
+Completion: **69/104**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
