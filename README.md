@@ -64,7 +64,7 @@
 |[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)|✅|
 |[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)|✅|
 |➕ [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)||
-|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)||
+|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|✅|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)||
 |[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)||
 |[Reorder List](https://leetcode.com/problems/reorder-list/)||
@@ -77,7 +77,7 @@
 |➕ [Maximal Square](https://leetcode.com/problems/maximal-square/)|✅|
 |➕ [Maximal Rectangle](https://leetcode.com/problems/maximal-square/)||
 |**String**|
-|[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
+|[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|✅|
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
 |[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)||
 |[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|✅|
@@ -116,7 +116,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **65/104**
+Completion: **67/104**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

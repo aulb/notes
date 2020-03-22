@@ -1,5 +1,5 @@
-// This is lookup for unicode
-const makeLookup = string => {
+// This is lookup counter for unicode
+const makeCounter = string => {
   const lookup = {};
   for (let char of string) lookup[char] = lookup[char] ? lookup[char] + 1 : 1;
   return lookup;

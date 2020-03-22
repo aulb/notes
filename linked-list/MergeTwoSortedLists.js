@@ -11,30 +11,51 @@
  * @return {ListNode}
  */
 const mergeTwoLists = (l1, l2) => {
-  let head = null;
-  let curr = null;
+  const dummy = new ListNode();
+  let curr = dummy;
 
-  // While l1 or l2 is not null
-  while (l1 || l2) {
-    const l1v = l1 && typeof l1.val === 'number' ? l1.val : Infinity;
-    const l2v = l2 && typeof l2.val === 'number' ? l2.val : Infinity;
-    const newListNode = new ListNode();
-    if (l1v < l2v && l2v !== Infinity) {
-      newListNode.val = l1v;
+  while (l1 && l2) {
+    if (l1.val > l2.val) {
+      curr.next = l2;
+      l2 = l2.next;
+    } else {
+      curr.next = l1;
       l1 = l1.next;
     }
+    curr = curr.next;
+  }
+  // Will always be imbalanced
+  curr.next = l1 || l2;
+  return dummy.next;
+};
 
-    if (l1v >= l2v && l1v !== Infinity) {
-      newListNode.val = l2v;
+const getVal = node => node && typeof node.val === 'number' ? node.val : Infinity;
+/*
+1        1    - same size
+1        null - l1 is greater
+null     1    - l2 is greater
+*/
+const mergeTwoListsMyWay = (l1, l2) => {
+  let head = null;
+  let curr = null;
+  while (l1 || l2) { // null || null, escape
+    const l1v = getVal(l1); // inf
+    const l2v = getVal(l2); // 1
+    const newNode = new ListNode();
+    if (l2v >= l1v && l1v !== Infinity) {
+      newNode.val = l1v;
+      l1 = l1.next; // null
+    } else if (l1v > l2v && l2v !== Infinity) {
+      newNode.val = l2v;
       l2 = l2.next;
     }
 
-    if (!head) {
-      head = newListNode;
+    if (!head) { // new node is head, // curr is head
+      head = newNode;
       curr = head;
     } else {
-      head.next = newListNode;
-      curr = head.next;
+      curr.next = newNode; // 1->newNode
+      curr = curr.next; // curr new node
     }
   }
 
