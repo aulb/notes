@@ -9,10 +9,16 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+// Do not use simultaneous assignment (wonky on lc), tricky to debug
+// Be explicit first, simplify later
 const reverseList = head => {
   let curr = head;
   let prev = null;
-  while (curr.next) [curr, curr.next, prev] = [curr.next, prev, curr]
-  curr.next = prev; // Do the end
-  return curr;
+  let temp = null;
+  while (curr) {
+      temp = curr.next;
+      curr.next = prev;
+      [curr, prev] = [temp, curr];
+  }
+  return prev;
 };

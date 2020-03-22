@@ -65,12 +65,12 @@
 |[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)|✅|
 |➕ [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)||
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|✅|
-|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)||
+|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|✅|
-|[Reorder List](https://leetcode.com/problems/reorder-list/)||
+|[Reorder List](https://leetcode.com/problems/reorder-list/)|✅|
 |**Matrix**|
 |[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|✅|
-|[Rotate Image](https://leetcode.com/problems/rotate-image/)||
+|[Rotate Image](https://leetcode.com/problems/rotate-image/)|✅|
 |[Word Search](https://leetcode.com/problems/word-search/)|✅|
 |[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)||
 |➕ [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)||
@@ -116,7 +116,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **69/104**
+Completion: **72/104**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
