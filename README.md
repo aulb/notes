@@ -36,11 +36,11 @@
 |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|✅|
 |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|✅|
 |[Word Break Problem](https://leetcode.com/problems/word-break/)|✅|
-|[Combination Sum](https://leetcode.com/problems/combination-sum-iv/)||
+|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)||
 |[House Robber](https://leetcode.com/problems/house-robber/)|✅|
 |[House Robber II](https://leetcode.com/problems/house-robber-ii/)|✅|
 |➕ [House Robber III](https://leetcode.com/problems/house-robber-iii/)||
-|[Decode Ways](https://leetcode.com/problems/decode-ways/)||
+|[Decode Ways](https://leetcode.com/problems/decode-ways/)|✅|
 |[Unique Paths](https://leetcode.com/problems/unique-paths/)|✅|
 |➕ [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|✅|
 |[Jump Game](https://leetcode.com/problems/jump-game/)|✅|
@@ -116,7 +116,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **72/104**
+Completion: **73/104**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

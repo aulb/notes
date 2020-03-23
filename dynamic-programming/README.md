@@ -29,3 +29,6 @@ Quick reminder:
 "leetcode", ["leet", "ee", "code"], lookup@final = [0,0,0,1,0,0,0,1]
 "ee" is not true at index 2 because its not the beginning nor "l" can be made.
 "leet" is true because its in the beginning of the string
+
+# Decode Ways
+This is like climbing stairs. If the current number is 1 - 9 carry over from previous case. If the number is between 10 - 26, a divergent path (add two steps)
