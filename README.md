@@ -13,7 +13,7 @@
 |[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|✅|
 |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|✅|
 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|✅|
-|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|🈲|
+|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|✅|
 |➕ [First Bad Version](https://leetcode.com/problems/first-bad-version)|✅|
 |➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
 |➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|✅|
@@ -24,6 +24,7 @@
 |➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
 |➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
 |➕ [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)||
+|➕ [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -36,7 +37,7 @@
 |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|✅|
 |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|✅|
 |[Word Break Problem](https://leetcode.com/problems/word-break/)|✅|
-|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)||
+|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|✅|
 |[House Robber](https://leetcode.com/problems/house-robber/)|✅|
 |[House Robber II](https://leetcode.com/problems/house-robber-ii/)|✅|
 |➕ [House Robber III](https://leetcode.com/problems/house-robber-iii/)||
@@ -92,6 +93,7 @@
 |➕ [Decode String](https://leetcode.com/problems/decode-string/)|✅|
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
 |➕ [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/)|✅|
+|➕ [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Same Tree](https://leetcode.com/problems/same-tree/)|✅|
@@ -116,7 +118,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **73/104**
+Completion: **76/106**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

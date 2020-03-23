@@ -32,3 +32,6 @@ Quick reminder:
 
 # Decode Ways
 This is like climbing stairs. If the current number is 1 - 9 carry over from previous case. If the number is between 10 - 26, a divergent path (add two steps)
+
+# Combination Sum 4
+More like find permutation

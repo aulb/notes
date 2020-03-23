@@ -13,6 +13,7 @@
 - Longest Common Subsequence
 - Longest Palindromic Substring // Watch Tushar
 - Longest Palindromic Subsequence // Watch Tushar
+- Coin change
 
 ## Cram Mode:
 - Subarray Sum Equals k

@@ -31,6 +31,15 @@ Its possible that `left` and `right` to be the same. If its not `>=` then it wil
 [Solution Explanation](https://leetcode.com/problems/container-with-most-water/discuss/6099/yet-another-way-to-see-what-happens-in-the-on-algorithm).
 "Greedy window".
 
+Idea (from discussion on lc):
+- Widest container is always a good candidate and what we start with
+- Every other container is less wide, we need a higher tower to hold more water
+- The smaller one of the first and last doesn't support higher water level, can be removed
+
+One consideration: if `h[i] === h[j]`, we need to prove that it doesn't matter if `i++` or `j--`.
+Answer:
+You need to prove that in this case, it does not matter whether you perform `i++` or `j--`, because if `h[i] == h[j]`, neither `(i+1, j)` or `(i, j-1)` can be potential solutions because the area obtained is necessarily smaller than `(i, j)`.
+
 # First Bad Version
 *FACEBOOK* question.
 
