@@ -24,7 +24,7 @@
 |➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
 |➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
 |➕ [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)||
-|➕ [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)||
+|➕ [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -118,7 +118,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **76/106**
+Completion: **77/106**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

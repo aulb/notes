@@ -18,4 +18,4 @@
 ## Cram Mode:
 - Subarray Sum Equals k
 
-Prevent overflow: `(left + (right - left)) / 2`
+Prevent overflow: `left + (right - left) / 2`

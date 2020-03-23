@@ -75,3 +75,6 @@ More straight forward than you think. Peek should do something extra for you.
 
 # Implement Stack Using Queues
 Also more straight forward, O(n) for one of the method is fine.
+
+# Find First and Last Position of Element in Sorted Array
+Binary search continuosly on the left and right on target (once found).
