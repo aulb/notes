@@ -5,6 +5,7 @@
 - Construct BT from Preorder & Inorder Traversal
 - Longest Palindromic Subsequence
 - Longest Palindromic Substring
+- Longest Consecutive Sequence
 
 ## Practice Again!!
 - Find rotated array

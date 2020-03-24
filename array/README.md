@@ -78,3 +78,7 @@ Also more straight forward, O(n) for one of the method is fine.
 
 # Find First and Last Position of Element in Sorted Array
 Binary search continuosly on the left and right on target (once found).
+
+# Longest Consecutive Sequence
+Remember hash map, your best friend. A quick lookup that saves a lot of time. Subsequence really.
+Find the start of the sequence and keep going.

@@ -1,6 +1,7 @@
 /**
  * @param {number[][]} matrix
  * @return {number[][]}
+ * O(nm)
  */
 const pacificAtlantic = matrix => {
   if (!matrix || !matrix.length || !matrix[0] || !matrix[0].length) return [];

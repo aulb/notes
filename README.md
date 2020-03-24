@@ -14,6 +14,7 @@
 |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|✅|
 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|✅|
 |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|✅|
+|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)||
 |➕ [First Bad Version](https://leetcode.com/problems/first-bad-version)|✅|
 |➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
 |➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|✅|
@@ -48,17 +49,16 @@
 |➕ [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)||
 |**Graph**|
 |[Clone Graph](https://leetcode.com/problems/clone-graph/)||
-|[Course Schedule](https://leetcode.com/problems/course-schedule/)||
+|[Course Schedule](https://leetcode.com/problems/course-schedule/)|✅|
 |[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|✅|
 |[# of Islands](https://leetcode.com/problems/number-of-islands/)|✅|
-|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)||
 |[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)||
 |[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)||
 |[# of Connected Comps in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)||
 |**Interval**|
 |[Insert Interval](https://leetcode.com/problems/insert-interval/)||
 |[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|✅|
-|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|🈲|
+|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|✅|
 |[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|✅|
 |[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|✅|
 |**Linked List**|
@@ -118,7 +118,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **77/106**
+Completion: **80/106**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
