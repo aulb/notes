@@ -82,3 +82,7 @@ Binary search continuosly on the left and right on target (once found).
 # Longest Consecutive Sequence
 Remember hash map, your best friend. A quick lookup that saves a lot of time. Subsequence really.
 Find the start of the sequence and keep going.
+
+# Trapping Rain Water
+The classic left right array lookups.
+Brute force: For every num (except first and last), keep moving to the right until it finds an element thats equal or bigger than. Every num passed is smaller (calculate the water trapped)

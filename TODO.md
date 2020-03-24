@@ -6,6 +6,7 @@
 - Longest Palindromic Subsequence
 - Longest Palindromic Substring
 - Longest Consecutive Sequence
+- Trapping Rain Water
 
 ## Practice Again!!
 - Find rotated array

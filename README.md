@@ -16,7 +16,7 @@
 |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|✅|
 |[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|✅|
 |➕ [First Bad Version](https://leetcode.com/problems/first-bad-version)|✅|
-|➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
+|➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|✅|
 |➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|✅|
 |➕ [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|✅|
 |➕ [Task Scheduler](https://leetcode.com/problems/task-scheduler/)|✅|
@@ -118,7 +118,7 @@
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **80/106**
+Completion: **81/106**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
