@@ -66,7 +66,6 @@
 |[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)|✅|
 |➕ [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)||
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|✅|
-|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|✅|
 |[Reorder List](https://leetcode.com/problems/reorder-list/)|✅|
 |**Matrix**|
@@ -111,14 +110,14 @@
 |[Word Search II](https://leetcode.com/problems/word-search-ii/)||
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
 |**Heap**|
-|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)||
+|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)||
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 
-Completion: **81/106**
+Completion: **81/105**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
