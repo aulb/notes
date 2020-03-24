@@ -14,7 +14,7 @@
 |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|✅|
 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|✅|
 |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|✅|
-|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)||
+|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|✅|
 |➕ [First Bad Version](https://leetcode.com/problems/first-bad-version)|✅|
 |➕ [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)||
 |➕ [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|✅|
