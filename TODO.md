@@ -7,6 +7,7 @@
 - Longest Palindromic Substring
 - Longest Consecutive Sequence
 - Trapping Rain Water
+- Longest Increasing Path in a Matrix
 
 ## Practice Again!!
 - Find rotated array

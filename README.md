@@ -47,6 +47,7 @@
 |➕ [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|✅|
 |[Jump Game](https://leetcode.com/problems/jump-game/)|✅|
 |➕ [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)||
+|➕ [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|✅|
 |**Graph**|
 |[Clone Graph](https://leetcode.com/problems/clone-graph/)||
 |[Course Schedule](https://leetcode.com/problems/course-schedule/)|✅|
@@ -76,6 +77,7 @@
 |➕ [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)||
 |➕ [Maximal Square](https://leetcode.com/problems/maximal-square/)|✅|
 |➕ [Maximal Rectangle](https://leetcode.com/problems/maximal-square/)||
+|➕ [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|✅|
 |**String**|
 |[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|✅|
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
@@ -114,11 +116,13 @@
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|✅|
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
-|➕ **Number**|
+|➕ **Number & Permutation**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 |➕ [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7)|✅|
+|➕ [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|✅|
 
-Completion: **84/106**
+
+Completion: **87/109**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
