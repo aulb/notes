@@ -111,13 +111,14 @@
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
-|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)||
-|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)||
+|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
+|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|✅|
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 |➕ **Number**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
+|➕ [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7)|✅|
 
-Completion: **81/105**
+Completion: **84/106**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
