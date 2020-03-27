@@ -22,8 +22,6 @@
 |➕ [Task Scheduler](https://leetcode.com/problems/task-scheduler/)|✅|
 |➕ [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|✅|
 |➕ [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|✅|
-|➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
-|➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
 |➕ [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)||
 |➕ [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|✅|
 |➕ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)||
@@ -111,8 +109,6 @@
 |[Validate BST](https://leetcode.com/problems/validate-binary-search-tree/)|✅|
 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|✅|
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|✅|
-|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|✅|
-|[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)||
 |[Word Search II](https://leetcode.com/problems/word-search-ii/)||
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
 |**Heap**|
@@ -128,9 +124,15 @@
 |➕ [Sqrt(x)](https://leetcode.com/problems/sqrtx/)|✅|
 |➕ [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|✅|
 |➕ [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|✅|
+|➕ **Data Structures**|
+|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|✅|
+|[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)||
+|➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
+|➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
+|➕ [LRU Cache](https://leetcode.com/problems/lru-cache/)||
+|➕ [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)||
 
-
-Completion: **93/117**
+Completion: **93/119**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
