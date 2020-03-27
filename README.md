@@ -28,6 +28,7 @@
 |➕ [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|✅|
 |➕ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)||
 |➕ [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)||
+|➕ [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -71,6 +72,7 @@
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|✅|
 |[Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|✅|
 |[Reorder List](https://leetcode.com/problems/reorder-list/)|✅|
+|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)|✅|
 |**Matrix**|
 |[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|✅|
 |[Rotate Image](https://leetcode.com/problems/rotate-image/)|✅|
@@ -128,7 +130,7 @@
 |➕ [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|✅|
 
 
-Completion: **91/115**
+Completion: **93/117**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

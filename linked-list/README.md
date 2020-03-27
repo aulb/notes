@@ -15,3 +15,7 @@ until it hits a null. When it hits a null, the slow pointer would be at the `n`t
 From now on: Use Python3! 3.8+
 Priority queue is useful. Remember the usual pattern (priority, item).
 Learn about how the insert works. Learn about heaps. Insert in heaps, heapify method.
+
+# Odd Even Linked List
+You can also work with two linked list at the same time you know!
+Odd and even together.

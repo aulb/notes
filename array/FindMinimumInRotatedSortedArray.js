@@ -35,7 +35,7 @@ This condition: m < l < h is invalid (unsorted)
   }
 
   while (r >= l) {
-    const m = l + (r - l) / 2;
+    const m = l + Math.floor((r - l) / 2);
     if (nums[m] > nums[m + 1]) {
       return nums[m + 1];
     }
@@ -44,14 +44,12 @@ This condition: m < l < h is invalid (unsorted)
       return nums[m];
     }
 
-    if (nums[mid] > nums[0]) {
+    if (nums[m] > nums[0]) {
       l = m + 1;
     } else {
       r = m - 1;
     }
   }
-
-  return l;
 };
 
 const binarySearch = (array, target) => {
