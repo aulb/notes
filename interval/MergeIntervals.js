@@ -27,12 +27,9 @@ const merge = intervals => {
       mergedIntervals.push(prevInterval);
       prevInterval = currInterval;
     }
-
-    // Push the last one, return
-    if (i === sortedIntervals.length - 1) {
-      mergedIntervals.push(prevInterval);
-    }
   }
 
+  // Push the last one, return
+  mergedIntervals.push(prevInterval);
   return mergedIntervals;
 };

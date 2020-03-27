@@ -26,6 +26,8 @@
 |➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
 |➕ [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)||
 |➕ [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|✅|
+|➕ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)||
+|➕ [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -118,11 +120,15 @@
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 |➕ **Number & Permutation**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
+|➕ [Palindrome Number](https://leetcode.com/problems/palindrome-number/)|✅|
 |➕ [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7)|✅|
 |➕ [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|✅|
+|➕ [Sqrt(x)](https://leetcode.com/problems/sqrtx/)|✅|
+|➕ [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|✅|
+|➕ [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|✅|
 
 
-Completion: **87/109**
+Completion: **91/115**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
