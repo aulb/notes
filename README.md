@@ -24,7 +24,7 @@
 |➕ [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|✅|
 |➕ [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)||
 |➕ [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|✅|
-|➕ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)||
+|➕ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|✅|
 |➕ [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)||
 |➕ [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|✅|
 |**Binary**|
@@ -130,9 +130,10 @@
 |➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
 |➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
 |➕ [LRU Cache](https://leetcode.com/problems/lru-cache/)||
-|➕ [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)||
+|➕ [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
+|➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 
-Completion: **93/119**
+Completion: **96/120**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

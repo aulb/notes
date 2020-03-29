@@ -70,12 +70,6 @@ To bring it down to linear time.
 *Further, for every sum encountered, we also determine the number of times the sum `sum - k` has occured already, since it will determine the number of times a subarray with sum `k` has occured up to the current index. We increment the count by the same amount.*
 i.e: We can make two different subarrays with sum `k` at index `i`.
 
-# Implement Queue Using Stacks
-More straight forward than you think. Peek should do something extra for you.
-
-# Implement Stack Using Queues
-Also more straight forward, O(n) for one of the method is fine.
-
 # Find First and Last Position of Element in Sorted Array
 Binary search continuosly on the left and right on target (once found).
 
@@ -86,3 +80,8 @@ Find the start of the sequence and keep going.
 # Trapping Rain Water
 The classic left right array lookups.
 Brute force: For every num (except first and last), keep moving to the right until it finds an element thats equal or bigger than. Every num passed is smaller (calculate the water trapped)
+
+# Sliding Window Maximum
+Keep a deque (popleft and appendleft O(1) arrays). The value of the zeroeth element is the index of the current max number.
+When appending to the deque, sweep from end and pop everything that isn't bigger than itself.
+The reason this is still linear runtime is because all the element is queued and dequeued at least once.
