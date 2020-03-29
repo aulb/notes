@@ -8,15 +8,16 @@
 - Longest Consecutive Sequence
 - Trapping Rain Water
 - Longest Increasing Path in a Matrix
+- Add and Search Word Data Structure
 
 ## Practice Again!!
-- Find rotated array
 - Spiral Matrix
-- Meeting Rooms (I && II)
 - Longest Common Subsequence
 - Longest Palindromic Substring // Watch Tushar
 - Longest Palindromic Subsequence // Watch Tushar
 - Coin change
+- Add and Search Word Data Structure (Good python trick!!)
+- Maximum subarray product
 
 ## Cram Mode:
 - Subarray Sum Equals k

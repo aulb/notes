@@ -23,3 +23,6 @@ We can extend from the previous similar question by keeping track of their indic
 However notice that we don't have to sort. We just need to remove the current `self.nums.length -1` from the index list.
 We can use set to easily track the indices instead, so we don't have to sort everytime we overwrite an element.
 Just becareful if the last element is the same as the element you're trying to remove. Its the easier case but needs to be separated.
+
+# Add and Search Data Structure
+Trie. If '.', just look at all the current possible.

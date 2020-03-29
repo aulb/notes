@@ -27,6 +27,7 @@
 |➕ [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|✅|
 |➕ [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)||
 |➕ [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|✅|
+|➕ [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -126,14 +127,14 @@
 |➕ [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|✅|
 |➕ **Data Structures**|
 |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|✅|
-|[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)||
+|[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|✅|
 |➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
 |➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
 |➕ [LRU Cache](https://leetcode.com/problems/lru-cache/)||
 |➕ [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 
-Completion: **96/120**
+Completion: **98/120**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
