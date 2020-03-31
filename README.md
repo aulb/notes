@@ -130,6 +130,7 @@
 |➕ [Sqrt(x)](https://leetcode.com/problems/sqrtx/)|✅|
 |➕ [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|✅|
 |➕ [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|✅|
+|➕ [Happy Number](https://leetcode.com/problems/happy-number/)||
 |➕ **Data Structures**|
 |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|✅|
 |[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|✅|
@@ -140,7 +141,7 @@
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 
-Completion: **103/126**
+Completion: **104/127**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
