@@ -28,6 +28,7 @@
 |➕ [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)||
 |➕ [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|✅|
 |➕ [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|✅|
+|➕ [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -98,6 +99,9 @@
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
 |➕ [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/)|✅|
 |➕ [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|✅|
+|➕ [Simplify Path](https://leetcode.com/problems/simplify-path/)|✅|
+|➕ [Maximum 96 Number](https://leetcode.com/problems/maximum-69-number/)|✅|
+|➕ [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Same Tree](https://leetcode.com/problems/same-tree/)|✅|
@@ -112,6 +116,7 @@
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|✅|
 |[Word Search II](https://leetcode.com/problems/word-search-ii/)||
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
+|➕ [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|✅|
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
@@ -133,8 +138,9 @@
 |➕ [LRU Cache](https://leetcode.com/problems/lru-cache/)||
 |➕ [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
+|➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 
-Completion: **98/120**
+Completion: **103/126**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

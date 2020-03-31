@@ -26,3 +26,6 @@ Just becareful if the last element is the same as the element you're trying to r
 
 # Add and Search Data Structure
 Trie. If '.', just look at all the current possible.
+
+# Min Stack
+Classic cracking question. Tradeoffs: if its not runtime elsewhere, its space, you can always save multiple things in an array etc.
