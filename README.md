@@ -98,6 +98,7 @@
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
 |➕ [Decode String](https://leetcode.com/problems/decode-string/)|✅|
 |➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)|✅|
+|➕ [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|✅|
 |➕ [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/)|✅|
 |➕ [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|✅|
 |➕ [Simplify Path](https://leetcode.com/problems/simplify-path/)|✅|
@@ -143,7 +144,7 @@
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 
-Completion: **106/128**
+Completion: **108/129**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
