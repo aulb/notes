@@ -29,6 +29,7 @@
 |➕ [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|✅|
 |➕ [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|✅|
 |➕ [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)||
+|➕ [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -96,7 +97,7 @@
 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|✅|
 |[Encode & Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)||
 |➕ [Decode String](https://leetcode.com/problems/decode-string/)|✅|
-|➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)||
+|➕ [Basic Calculator](https://leetcode.com/problems/basic-calculator/)|✅|
 |➕ [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/)|✅|
 |➕ [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|✅|
 |➕ [Simplify Path](https://leetcode.com/problems/simplify-path/)|✅|
@@ -104,12 +105,13 @@
 |➕ [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
+|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|✅|
 |[Same Tree](https://leetcode.com/problems/same-tree/)|✅|
 |[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|✅|
 |[Invert/Flip BT](https://leetcode.com/problems/invert-binary-tree/)|✅|
 |[BT Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|✅|
 |[BT Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|✅|
-|[Serialize & Deserialize BT](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)||
+|[Serialize & Deserialize BT](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|✅|
 |[Construct BT from Preorder & Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|✅|
 |[Validate BST](https://leetcode.com/problems/validate-binary-search-tree/)|✅|
 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|✅|
@@ -141,7 +143,7 @@
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 
-Completion: **104/127**
+Completion: **106/128**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

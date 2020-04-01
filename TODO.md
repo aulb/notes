@@ -1,8 +1,8 @@
 ## Solutions Read or Watched:
+- Construct BT from Preorder & Inorder Traversal
 - Longest Increasing Subsequence
 - Maximum BT Path Sum
 - Super Egg Drop
-- Construct BT from Preorder & Inorder Traversal
 - Longest Palindromic Subsequence
 - Longest Palindromic Substring
 - Longest Consecutive Sequence
