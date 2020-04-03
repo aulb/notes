@@ -21,3 +21,6 @@ The solution I use uses no extra storage to track `wordSoFar`, instead it modifi
 
 Runtime: O(nm) n = element in matrix, m = element in word
 The naive implementation has a way nastier runtime.
+
+# Search in 2D Matrix II
+O(m + n), start at diagonal end thats not max/min.

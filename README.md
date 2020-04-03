@@ -84,6 +84,8 @@
 |➕ [Maximal Square](https://leetcode.com/problems/maximal-square/)|✅|
 |➕ [Maximal Rectangle](https://leetcode.com/problems/maximal-square/)||
 |➕ [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|✅|
+|➕ [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|✅|
+|➕ [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)|✅|
 |**String**|
 |[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|✅|
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
@@ -147,7 +149,7 @@
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 
-Completion: **112/132**
+Completion: **114/134**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
