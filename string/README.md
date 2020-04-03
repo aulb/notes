@@ -14,3 +14,6 @@ I like the expanding center idea. Its intuitive. O(n^2) runtime. Normal linear r
 
 # Palindromic Substrings
 Expanding circles... O(n^3) is naive, with this we can bring back to O(n^2).
+
+# Minimum Window Substring
+Read again. It was interesting, lots of tricks to help the code.

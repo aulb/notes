@@ -36,6 +36,7 @@
 |[Counting Bits](https://leetcode.com/problems/counting-bits/)|✅|
 |[Missing Number](https://leetcode.com/problems/missing-number/)|✅|
 |[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|✅|
+|➕ [Single Number](https://leetcode.com/problems/single-number/)|✅|
 |**Dynamic Programming**|
 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|✅|
 |[Coin Change](https://leetcode.com/problems/coin-change/)|✅|
@@ -86,7 +87,7 @@
 |**String**|
 |[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|✅|
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
-|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)||
+|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|✅|
 |[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|✅|
 |[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|✅|
 |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|✅|
@@ -133,7 +134,9 @@
 |➕ [Sqrt(x)](https://leetcode.com/problems/sqrtx/)|✅|
 |➕ [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|✅|
 |➕ [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|✅|
-|➕ [Happy Number](https://leetcode.com/problems/happy-number/)||
+|➕ [Happy Number](https://leetcode.com/problems/happy-number/)|✅|
+|➕ [Knight Dialer](https://leetcode.com/problems/knight-dialer/)||
+|➕ [Next Permutation](https://leetcode.com/problems/next-permutation/)|✅|
 |➕ **Data Structures**|
 |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|✅|
 |[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|✅|
@@ -144,7 +147,7 @@
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 
-Completion: **108/129**
+Completion: **112/132**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
