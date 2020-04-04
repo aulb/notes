@@ -123,11 +123,13 @@
 |[Word Search II](https://leetcode.com/problems/word-search-ii/)||
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
 |➕ [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|✅|
+|➕ [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|✅|
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
+|➕ [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)|✅|
 |➕ **Number & Permutation**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 |➕ [Palindrome Number](https://leetcode.com/problems/palindrome-number/)|✅|
@@ -149,7 +151,7 @@
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 
-Completion: **114/134**
+Completion: **116/136**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
