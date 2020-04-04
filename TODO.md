@@ -1,4 +1,5 @@
 ## Solutions Read or Watched:
+- **Subarray Sum Equals K**
 - Construct BT from Preorder & Inorder Traversal
 - Longest Increasing Subsequence
 - Maximum BT Path Sum
@@ -19,7 +20,11 @@
 - Add and Search Word Data Structure (Good python trick!!)
 - Maximum subarray product
 
+
 ## Cram Mode:
-- Subarray Sum Equals k
+- **Subarray Sum Equals K**
+
+## Todo:
+- Exclusive Function Time (TODO)
 
 Prevent overflow: `left + (right - left) / 2`

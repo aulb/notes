@@ -30,6 +30,7 @@
 |➕ [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|✅|
 |➕ [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)||
 |➕ [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|✅|
+|➕ [Find Peak Element](https://leetcode.com/problems/find-peak-element/)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -107,6 +108,7 @@
 |➕ [Simplify Path](https://leetcode.com/problems/simplify-path/)|✅|
 |➕ [Maximum 96 Number](https://leetcode.com/problems/maximum-69-number/)|✅|
 |➕ [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|✅|
+|➕ [Add Binary](https://leetcode.com/problems/add-binary/)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|✅|
@@ -130,6 +132,7 @@
 |[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|✅|
 |➕ [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)||
 |➕ [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)|✅|
+|➕ [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|✅|
 |➕ **Number & Permutation**|
 |➕ [Maximum Swap](https://leetcode.com/problems/maximum-swap/)|✅|
 |➕ [Palindrome Number](https://leetcode.com/problems/palindrome-number/)|✅|
@@ -151,7 +154,7 @@
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 
-Completion: **116/136**
+Completion: **119/139**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
