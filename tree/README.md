@@ -21,3 +21,6 @@ First in between is always the lowest common ancestor. By BST property. Also rea
 
 # Implement Trie
 You can count on hash tables. Iterate through with hash tables.
+
+# Diameter of a Binary Tree
+REALLY IMPORTANT: The answer might not come/pass through root.

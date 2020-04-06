@@ -55,7 +55,7 @@
 |➕ [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)||
 |➕ [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|✅|
 |**Graph**|
-|[Clone Graph](https://leetcode.com/problems/clone-graph/)||
+|[Clone Graph](https://leetcode.com/problems/clone-graph/)|✅|
 |[Course Schedule](https://leetcode.com/problems/course-schedule/)|✅|
 |[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|✅|
 |[# of Islands](https://leetcode.com/problems/number-of-islands/)|✅|
@@ -63,7 +63,7 @@
 |[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)||
 |[# of Connected Comps in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)||
 |**Interval**|
-|[Insert Interval](https://leetcode.com/problems/insert-interval/)||
+|[Insert Interval](https://leetcode.com/problems/insert-interval/)|✅|
 |[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|✅|
 |[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|✅|
 |[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|✅|
@@ -80,7 +80,8 @@
 |[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|✅|
 |[Rotate Image](https://leetcode.com/problems/rotate-image/)|✅|
 |[Word Search](https://leetcode.com/problems/word-search/)|✅|
-|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)||
+|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|✅|
+|➕ [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)||
 |➕ [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)||
 |➕ [Maximal Square](https://leetcode.com/problems/maximal-square/)|✅|
 |➕ [Maximal Rectangle](https://leetcode.com/problems/maximal-square/)||
@@ -112,6 +113,7 @@
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|✅|
+|➕ [Diameter of a BT](https://leetcode.com/problems/diameter-of-binary-tree/)|✅|
 |[Same Tree](https://leetcode.com/problems/same-tree/)|✅|
 |[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|✅|
 |[Invert/Flip BT](https://leetcode.com/problems/invert-binary-tree/)|✅|
@@ -150,11 +152,13 @@
 |➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
 |➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
 |➕ [LRU Cache](https://leetcode.com/problems/lru-cache/)||
+|➕ [LFU Cache](https://leetcode.com/problems/lfu-cache/)||
 |➕ [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
+|➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **119/139**
+Completion: **124/143**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

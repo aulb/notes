@@ -1,4 +1,5 @@
 class Solution:
+    # Variant of this problem is "largestRange" which returns the largest range instead of the number
     def longestConsecutive(self, nums: List[int]) -> int:
         nums = set(nums)
         longest = 0
