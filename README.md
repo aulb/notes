@@ -82,7 +82,7 @@
 |[Word Search](https://leetcode.com/problems/word-search/)|✅|
 |[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|✅|
 |➕ [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)||
-|➕ [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)||
+|➕ [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|✅|
 |➕ [Maximal Square](https://leetcode.com/problems/maximal-square/)|✅|
 |➕ [Maximal Rectangle](https://leetcode.com/problems/maximal-square/)||
 |➕ [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|✅|
@@ -158,7 +158,7 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **124/143**
+Completion: **125/143**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
