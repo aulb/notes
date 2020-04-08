@@ -31,6 +31,7 @@
 |➕ [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)||
 |➕ [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|✅|
 |➕ [Find Peak Element](https://leetcode.com/problems/find-peak-element/)|✅|
+|➕ [Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -127,7 +128,9 @@
 |[Word Search II](https://leetcode.com/problems/word-search-ii/)||
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
 |➕ [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|✅|
-|➕ [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
+|➕ [Vertical Order Traversal of a BT](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
+|➕ [Flatten BT to Linked List](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
+|➕ [Convert BST to Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|✅|
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
@@ -158,7 +161,7 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **125/143**
+Completion: **127/146**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

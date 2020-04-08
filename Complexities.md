@@ -6,8 +6,7 @@ Heapify - `O(logn)` - called in a top down manner
 ## Binary Search Tree
 Unbalanced binary search tree always have `O(n)` as its worst case scenario.
 Rebalancing a binary tree helps with keeping everything `O(logn)`
-
-
+Prevent overflow: `left + (right - left) / 2`
 
 # Sorting Algorithms
 Todo.
