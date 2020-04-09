@@ -1,3 +1,60 @@
-## Cram Mode
-- Flatten Binary Tree to Linked List
-- Convert BST to Doubly Linked List
+## CM
+1. Flatten Binary Tree to Linked List
+2. Convert BST to Doubly Linked List
+3. Graph Valid Tree
+4. Check Completeness of a Binary Tree
+We can use BFS, if we find a null that means it is not complete.
+5. Minesweeper
+  Only Update board state -> BFS
+  If click on a mine ('M'), mark it as 'X', stop further search.
+  If click on an empty cell ('E'), depends on how many surrounding mine:
+  2.1 Has surrounding mine(s), mark it with number of surrounding mine(s), stop further search.
+  2.2 No surrounding mine, mark it as 'B', continue search its 8 neighbors.
+6. Is Graph Bipartite?
+Coloring problem. Dual colored. Bipartite graph: two color needed
+7. Sort Colors ( read again )
+Brute Force: count -> replace with counts
+https://en.wikipedia.org/wiki/Dutch_national_flag_problem:
+Three pointer
+
+## Read during CM 4/7
+1) Reorder List
+- Find middle 1-2-3-4-5-6 -> 4-5-6
+- Sever it 1-2-3, 4-5-6
+- Reverse middle 6-5-4
+- Intertwine 1-6-2-5-3-4
+2) Serialize Deserialize BT
+- Just record nulls, make things easier
+3. Design Tic Tac Toe
+O(1) check. Keep track of rows, cols, diagonal + anti diagonal
+4. Strobogrammatic Number
+The first strobogrammatic is just to check if its a strobogrammatic number or not.
+- Build the mirror of the number. See if mirror and num are the same when mirror is reversed.
+6:9,9:6,8:8,1:1,0:0 thats all the basic.
+5. Strobogrammatic Number II
+Generate all strobogrammatic numbers of length `n`.
+`helper(targetLen - 2, totalLen)`.
+6. Strobogrammatic Number III
+Find all strobogrammatic number within a range. Well... generate the numbers for length `n` and `m` and count.
+"lenLow and lenHigh" are good variable names.
+7. Pancake Flip ( Maybe Read Again )
+... Really? Hmm
+8. BST Iterator ( do this )
+Stack based or flatten based. Up to you..
+9. BT Zigzag Level Order Traversal
+Only BFS ofcourse. Apparently... you need a queue as well for some optimization? If the direction is the "other" way then insert from the beginning, otherwise insert from the end. But apparently in Python it doesn't matter since its going to be converted back to list (negating the time gain).
+10. Friends of Appropriate Ages
+This is why asking sizes are important. Max size of ages array is 20k. Instead of doing 20k squared comparison, do 120 squared. This is because we know there are only 120 possible ages.
+
+## Not done
+1. Accounts Merge (Important Question)
+2. Valid Square ( Read a little bit )
+Just check. There are finite number of cases.
+3. Snapshot Array ( Read a little bit )
+Concept: [[-1 (snapshot ID), 0 (val)]]
+4. LCA of BT ( Read a little bit )
+Go through an example
+
+
+
+# Lets learn union find disjoint set!

@@ -32,6 +32,7 @@
 |➕ [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|✅|
 |➕ [Find Peak Element](https://leetcode.com/problems/find-peak-element/)|✅|
 |➕ [Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements)||
+|➕ [Sort Colors](https://leetcode.com/problems/sort-colors)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -61,8 +62,9 @@
 |[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|✅|
 |[# of Islands](https://leetcode.com/problems/number-of-islands/)|✅|
 |[Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)||
-|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)||
+|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|✅|
 |[# of Connected Comps in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)||
+|➕ [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|✅|
 |**Interval**|
 |[Insert Interval](https://leetcode.com/problems/insert-interval/)|✅|
 |[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|✅|
@@ -89,6 +91,7 @@
 |➕ [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|✅|
 |➕ [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|✅|
 |➕ [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)|✅|
+|➕ [Minesweeper](https://leetcode.com/problems/minesweeper)|✅|
 |**String**|
 |[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|✅|
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
@@ -125,12 +128,14 @@
 |[Validate BST](https://leetcode.com/problems/validate-binary-search-tree/)|✅|
 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|✅|
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|✅|
+|➕ [Lowest Common Ancestor of BT](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)||
 |[Word Search II](https://leetcode.com/problems/word-search-ii/)||
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
 |➕ [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|✅|
 |➕ [Vertical Order Traversal of a BT](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
 |➕ [Flatten BT to Linked List](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
 |➕ [Convert BST to Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|✅|
+|➕ [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|✅|
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
@@ -161,7 +166,7 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **127/146**
+Completion: **132/151**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
