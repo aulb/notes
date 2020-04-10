@@ -19,6 +19,8 @@ General runtime: `O(V + E)`. Vertices and edges. Matrix DFS algo
 [4,5,6] => 9 vertices, if edges is up, left, down, right then 24 edges (max 36 edges)
 [7,8,9]
 ```
+Linear for BT.
+Because a binary tree with only child pointers is directed acyclic graph with only one source node, a traversal of the tree from the root will visit each node exactly once.
 **Topological Sort**
 Can be done with DFS or BFS doesn't matter. Finds cycles.
 

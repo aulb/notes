@@ -44,6 +44,7 @@
 |[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|✅|
 |[Coin Change](https://leetcode.com/problems/coin-change/)|✅|
 |[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|✅|
+|➕ [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|✅|
 |[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|✅|
 |[Word Break Problem](https://leetcode.com/problems/word-break/)|✅|
 |[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|✅|
@@ -139,7 +140,8 @@
 |➕ [Vertical Order Traversal of a BT](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
 |➕ [Flatten BT to Linked List](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
 |➕ [Convert BST to Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|✅|
-|➕ [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|✅|
+|➕ [Check Completeness of a BT](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|✅|
+|➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|✅|
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
@@ -170,7 +172,7 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **135/155**
+Completion: **137/157**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

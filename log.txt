@@ -18,7 +18,10 @@ https://en.wikipedia.org/wiki/Dutch_national_flag_problem:
 Three pointer
 8. Similar String Groups ( Got a TLE ) O(t * n^2)
 Similarity function is really easy to implement because "every string in A is an anagram".
-
+9. Binary Tree Right Side View
+10. Increasing Triplet Subsequence
+In linear time and constant space. LIS is O(n^2) time...
+Keep it simple stupid. Find three distinct minimum numbers.
 
 ## Read during CM 4/7
 1. Reorder List
