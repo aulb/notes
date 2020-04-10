@@ -12,18 +12,21 @@ We can use BFS, if we find a null that means it is not complete.
   2.2 No surrounding mine, mark it as 'B', continue search its 8 neighbors.
 6. Is Graph Bipartite?
 Coloring problem. Dual colored. Bipartite graph: two color needed
-7. Sort Colors ( read again )
+7. Sort Colors ( read again ) Linear in length
 Brute Force: count -> replace with counts
 https://en.wikipedia.org/wiki/Dutch_national_flag_problem:
 Three pointer
+8. Similar String Groups ( Got a TLE ) O(t * n^2)
+Similarity function is really easy to implement because "every string in A is an anagram".
+
 
 ## Read during CM 4/7
-1) Reorder List
+1. Reorder List
 - Find middle 1-2-3-4-5-6 -> 4-5-6
 - Sever it 1-2-3, 4-5-6
 - Reverse middle 6-5-4
 - Intertwine 1-6-2-5-3-4
-2) Serialize Deserialize BT
+2. Serialize Deserialize BT
 - Just record nulls, make things easier
 3. Design Tic Tac Toe
 O(1) check. Keep track of rows, cols, diagonal + anti diagonal
@@ -45,6 +48,11 @@ Stack based or flatten based. Up to you..
 Only BFS ofcourse. Apparently... you need a queue as well for some optimization? If the direction is the "other" way then insert from the beginning, otherwise insert from the end. But apparently in Python it doesn't matter since its going to be converted back to list (negating the time gain).
 10. Friends of Appropriate Ages
 This is why asking sizes are important. Max size of ages array is 20k. Instead of doing 20k squared comparison, do 120 squared. This is because we know there are only 120 possible ages.
+11. Remove Invalid Parentheses
+Backtracking...? How? Lets read this
+One thing I notice is to learn how to create all possible string from a string.
+12. Sliding Window Maximum
+We have a queue that keeps track of the five latest indices, the first element is the index that has the max so far. O(n) due to popping and appending once for each element at max.
 
 ## Not done
 1. Accounts Merge (Important Question)

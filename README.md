@@ -100,6 +100,7 @@
 |[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|✅|
 |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|✅|
 |➕ [Valid Parentheses II](https://leetcode.com/problems/valid-parentheses-ii/)|✅|
+|➕ [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)||
 |[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|✅|
 |[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|✅|
 |➕ [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|✅|
@@ -114,6 +115,9 @@
 |➕ [Maximum 96 Number](https://leetcode.com/problems/maximum-69-number/)|✅|
 |➕ [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|✅|
 |➕ [Add Binary](https://leetcode.com/problems/add-binary/)|✅|
+|➕ [Similar String Groups](https://leetcode.com/problems/similar-string-groups/)|✅|
+|➕ [Minimum To Add Make Parentheses Valid](https://leetcode.com/problems/minimum-to-add-make-parentheses-valid/)|✅|
+|➕ [Minimum To Remove Make Parentheses Valid](https://leetcode.com/problems/minimum-to-remove-make-parentheses-valid/)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|✅|
@@ -166,7 +170,7 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **132/151**
+Completion: **135/155**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
