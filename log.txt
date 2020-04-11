@@ -38,6 +38,19 @@ Make a graph and BFS/DFS.
 14. Convert Sorted List to Binary Search Tree ( Followed along )
 This is an O(nlogn) runtime algorithm. Find middle, make middle root. Sever right side from left side.
 Recurse to get left and right children. Don't forget base cases!!
+15. Find the Celebrity
+Find candidate then verify. Candidate: its ok to just simply ask if they A knows B. If A knows B, then candidate becomes B. We don't need two way asking.
+A knows B -> no? Stay at A
+A knows C -> no? Stay at A
+A knows D -> no? Stay at A
+A knows E -> yes! Move to E Say E is the celebrity
+...E knows (...rest) -> no! Stays at E the entire time
+Verify -> E -> knows (...all) -> no. Return
+Verify -> ...all -> knows E -> no. Return
+Return candidate!
+16. Find All Anagrams in a String O(max(len(s), len(p)))
+Counter, deque. Orchestrate. We might not even need a deque.
+
 
 ## Read during CM 4/7
 1. Reorder List
@@ -89,6 +102,11 @@ Make sure to carefully go through it... Use a set to keep track of the indices.
 The key is how to count once? My idea earlier was to count both left and right... but do I really need this? I don't need to, I just need to count once everytime. Go left or right depending if I want max or min first.
 17. Sparse Matrix Multiplication
 Record all row/cols that are 0. If A@row and B@col are both 0s, skip. Result is 0.
+18. Second Degree Follower...
+SQL Question???
+19. Palindromic Substrings
+Count the number of subtrings that makes a palindrome in a string.
+Expand around center, there are 2 * len(s) - 1 centers to explore.
 
 ## Extra
 1. Dot Product and Vector Compression

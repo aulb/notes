@@ -1,3 +1,18 @@
+# Important
+Tinyurl : basics
+Instagram,
+Twitter, Twitter TOP TRENDING, Twitter Newsfeed, Twitter search
+Facebook Newsfeed
+Yelp : Nearby friends
+
+Consistent Hashing.
+
+
+
+Misc:
+  - Typeahead (ala Google)
+  - API Rate Limiter
+
 Messaging
 
 Image Service/Storage

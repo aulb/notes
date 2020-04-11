@@ -33,6 +33,7 @@
 |➕ [Find Peak Element](https://leetcode.com/problems/find-peak-element/)|✅|
 |➕ [Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements)||
 |➕ [Sort Colors](https://leetcode.com/problems/sort-colors)|✅|
+|➕ [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|✅|
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -66,6 +67,7 @@
 |[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|✅|
 |[# of Connected Comps in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)||
 |➕ [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|✅|
+|➕ [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity)|✅|
 |**Interval**|
 |[Insert Interval](https://leetcode.com/problems/insert-interval/)|✅|
 |[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|✅|
@@ -120,6 +122,7 @@
 |➕ [Similar String Groups](https://leetcode.com/problems/similar-string-groups/)|✅|
 |➕ [Minimum To Add Make Parentheses Valid](https://leetcode.com/problems/minimum-to-add-make-parentheses-valid/)|✅|
 |➕ [Minimum To Remove Make Parentheses Valid](https://leetcode.com/problems/minimum-to-remove-make-parentheses-valid/)|✅|
+|➕ [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|✅|
@@ -175,7 +178,7 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **141/160**
+Completion: **144/163**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 
