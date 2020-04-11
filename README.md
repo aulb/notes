@@ -73,7 +73,8 @@
 |[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|✅|
 |[Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|✅|
 |**Linked List**|
-|[Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)|✅|
+|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|✅|
+|➕ [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|✅|
 |[Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)|✅|
 |➕ [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)||
 |[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|✅|
@@ -142,6 +143,7 @@
 |➕ [Convert BST to Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|✅|
 |➕ [Check Completeness of a BT](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|✅|
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|✅|
+|➕ [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|✅|
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
@@ -165,14 +167,14 @@
 |[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|✅|
 |➕ [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|✅|
 |➕ [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|✅|
-|➕ [LRU Cache](https://leetcode.com/problems/lru-cache/)||
+|➕ [LRU Cache](https://leetcode.com/problems/lru-cache/)|✅|
 |➕ [LFU Cache](https://leetcode.com/problems/lfu-cache/)||
 |➕ [Insert Delete Get Random O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Insert Delete Get Random O(1) - Dupes Allowed](https://leetcode.com/problems/insert-delete-getrandom-o1/)|✅|
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **137/157**
+Completion: **140/159**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

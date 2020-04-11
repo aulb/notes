@@ -22,6 +22,19 @@ Similarity function is really easy to implement because "every string in A is an
 10. Increasing Triplet Subsequence
 In linear time and constant space. LIS is O(n^2) time...
 Keep it simple stupid. Find three distinct minimum numbers.
+11. Reverse Linked List II
+Just need concentration.
+12. LRU Cache
+Doubly linked list. Remove close to head. Add close to tail.
+One important detail is to not overcomplicate a function.
+Remove should simply remove a node out of the chain and not touch other parts of the linked list.
+13. All Nodes Distance K in Binary Tree
+Couple different technique. Annotate each node with "parent" and just traverse.
+Make a graph and BFS/DFS.
+"Percolate" so be smart about looking in the left or right depending...
+  - Find how deep target is... and where
+  - From root node, find to the left or right K - depth - 1 nodes away (tricky)
+  - From the target, find K distance (easy)
 
 ## Read during CM 4/7
 1. Reorder List
@@ -56,6 +69,32 @@ Backtracking...? How? Lets read this
 One thing I notice is to learn how to create all possible string from a string.
 12. Sliding Window Maximum
 We have a queue that keeps track of the five latest indices, the first element is the index that has the max so far. O(n) due to popping and appending once for each element at max.
+13. Reverse Words in a String
+Make into list, reverse the array, reverse every word, trim.
+'''reverse every words in a string'''
+l, r = 0 , 0
+while r < len(arr):
+    while r < len(arr) and not arr[r].isspace(): r += 1
+    self.reverse_string(arr, l, r-1)
+    r += 1; l = r
+return arr
+14. Insert Delete Get Random O(1)
+Orchestrating array and hash table. Hash table keeps track of the index. Removing is just popping.
+15. Insert Delete Get Random O(1) - Duplicates allowed
+Make sure to carefully go through it... Use a set to keep track of the indices.
+16. Kth Smallest Element in a BST
+The key is how to count once? My idea earlier was to count both left and right... but do I really need this? I don't need to, I just need to count once everytime. Go left or right depending if I want max or min first.
+17. Divide Two Integers
+
+[1,2,3,4,5,6,7,8,9]
+      5
+  2       8
+1   3   7   9
+      46
+## Extra
+1. Dot Product and Vector Compression
+[1,1,1,2,2] => [[1,3],[2,2]]
+[2,2,3,3,3] => 2 + 2 + 3 + 6 + 6
 
 ## Not done
 1. Accounts Merge (Important Question)
