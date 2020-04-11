@@ -49,8 +49,9 @@ Verify -> E -> knows (...all) -> no. Return
 Verify -> ...all -> knows E -> no. Return
 Return candidate!
 16. Find All Anagrams in a String O(max(len(s), len(p)))
-Counter, deque. Orchestrate. We might not even need a deque.
-
+Counter, deque. Orchestrate. We might not even need a deque. Just do two pointers, we can start with deque tho.
+17. Longest Absolute File Path
+We can use a stack... ASK FOR CLARIFICATION(S) IF YOU GET HIT WITH THIS QUESTION!
 
 ## Read during CM 4/7
 1. Reorder List
@@ -107,6 +108,9 @@ SQL Question???
 19. Palindromic Substrings
 Count the number of subtrings that makes a palindrome in a string.
 Expand around center, there are 2 * len(s) - 1 centers to explore.
+20. Single Number - EASY
+XOR.
+
 
 ## Extra
 1. Dot Product and Vector Compression
@@ -123,8 +127,6 @@ Concept: [[-1 (snapshot ID), 0 (val)]]
 Go through an example
 5. Divide Two Integers
 6. Big Integer Addition
-
-
 
 
 # Lets learn union find disjoint set!
