@@ -144,6 +144,7 @@
 |➕ [Check Completeness of a BT](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|✅|
 |➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|✅|
 |➕ [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|✅|
+|➕ [Convert Sorted List to BST](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|✅|
 |**Heap**|
 |[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|✅|
 |[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|✅|
@@ -174,7 +175,7 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **140/159**
+Completion: **141/160**
 
 [Up next](https://github.com/donnemartin/system-design-primer)
 

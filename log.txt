@@ -35,6 +35,9 @@ Make a graph and BFS/DFS.
   - Find how deep target is... and where
   - From root node, find to the left or right K - depth - 1 nodes away (tricky)
   - From the target, find K distance (easy)
+14. Convert Sorted List to Binary Search Tree ( Followed along )
+This is an O(nlogn) runtime algorithm. Find middle, make middle root. Sever right side from left side.
+Recurse to get left and right children. Don't forget base cases!!
 
 ## Read during CM 4/7
 1. Reorder List
@@ -84,13 +87,9 @@ Orchestrating array and hash table. Hash table keeps track of the index. Removin
 Make sure to carefully go through it... Use a set to keep track of the indices.
 16. Kth Smallest Element in a BST
 The key is how to count once? My idea earlier was to count both left and right... but do I really need this? I don't need to, I just need to count once everytime. Go left or right depending if I want max or min first.
-17. Divide Two Integers
+17. Sparse Matrix Multiplication
+Record all row/cols that are 0. If A@row and B@col are both 0s, skip. Result is 0.
 
-[1,2,3,4,5,6,7,8,9]
-      5
-  2       8
-1   3   7   9
-      46
 ## Extra
 1. Dot Product and Vector Compression
 [1,1,1,2,2] => [[1,3],[2,2]]
@@ -104,6 +103,9 @@ Just check. There are finite number of cases.
 Concept: [[-1 (snapshot ID), 0 (val)]]
 4. LCA of BT ( Read a little bit )
 Go through an example
+5. Divide Two Integers
+6. Big Integer Addition
+
 
 
 
