@@ -34,6 +34,8 @@
 |➕ [Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements)||
 |➕ [Sort Colors](https://leetcode.com/problems/sort-colors)|✅|
 |➕ [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|✅|
+|➕ [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|✅|
+|➕ [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)||
 |**Binary**|
 |[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|✅|
 |[# of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|✅|
@@ -167,6 +169,8 @@
 |➕ [Happy Number](https://leetcode.com/problems/happy-number/)|✅|
 |➕ [Knight Dialer](https://leetcode.com/problems/knight-dialer/)||
 |➕ [Next Permutation](https://leetcode.com/problems/next-permutation/)|✅|
+|➕ [Permutations](https://leetcode.com/problems/permutations/)|✅|
+|➕ [Permutations II](https://leetcode.com/problems/permutations-ii/)|✅|
 |➕ **Data Structures**|
 |[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|✅|
 |[Add & Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|✅|
@@ -179,8 +183,8 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **145/164**
-* Problem not very well defined...
+Completion: **148/168**
+/* Problem not very well defined...
 [Up next](https://github.com/donnemartin/system-design-primer)
 
 [Reverse Interview](https://github.com/viraptor/reverse-interview/blob/master/README.md)

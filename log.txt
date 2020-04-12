@@ -52,6 +52,18 @@ Return candidate!
 Counter, deque. Orchestrate. We might not even need a deque. Just do two pointers, we can start with deque tho.
 17. Longest Absolute File Path
 We can use a stack... ASK FOR CLARIFICATION(S) IF YOU GET HIT WITH THIS QUESTION!
+18. Max Consecutive Ones III
+Sliding window. But literally just the window size.
+def longestOnes(self, A, K):
+    i = 0
+    for j in range(len(A)):
+      K -= 1 - A[j]
+      if K < 0:
+        K += 1 - A[i]
+        i += 1
+    return j - i + 1
+This is literally just the "span of the biggest window". Not where it is.
+
 
 ## Read during CM 4/7
 1. Reorder List
@@ -110,6 +122,10 @@ Count the number of subtrings that makes a palindrome in a string.
 Expand around center, there are 2 * len(s) - 1 centers to explore.
 20. Single Number - EASY
 XOR.
+21. Single Element in a Sorted Array
+Binary search but remember the example below:
+0 1 1 3 3 # start on an even index always. If the even, odd pair is not the same number, go left
+1 1 3 3 # Otherwise twins so far, go right...
 
 
 ## Extra
@@ -128,5 +144,15 @@ Go through an example
 5. Divide Two Integers
 6. Big Integer Addition
 
-
 # Lets learn union find disjoint set!
+
+**Sliding Windows**
+Count Number of Nice Subarrays
+Replace the Substring for Balanced String
+Binary Subarrays With Sum
+Subarrays with K Different Integers
+Fruit Into Baskets
+Shortest Subarray with Sum at Least K
+Minimum Size Subarray Sum
+Max Consecutive Ones III
+Longest Substring with At Most K Distinct Characters
