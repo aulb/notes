@@ -63,7 +63,8 @@ def longestOnes(self, A, K):
         i += 1
     return j - i + 1
 This is literally just the "span of the biggest window". Not where it is.
-
+19. Add Strings
+Pad with 0s, cool technique. Hassle free since everything is the same length.
 
 ## Read during CM 4/7
 1. Reorder List
@@ -126,7 +127,15 @@ XOR.
 Binary search but remember the example below:
 0 1 1 3 3 # start on an even index always. If the even, odd pair is not the same number, go left
 1 1 3 3 # Otherwise twins so far, go right...
-
+22. Permutations I && II
+DFS. Remember your python. [] + [] -> new object
+22. Insert Into a Sorted Circular Linked List
+If its null, return a new node that points to itself.
+If not null, find max. And find where to insert.
+23. Same Tree
+Make sure base case is all covered. Not p AND not q.
+24. Symmetric Tree
+Similar to same tree!
 
 ## Extra
 1. Dot Product and Vector Compression
@@ -142,7 +151,6 @@ Concept: [[-1 (snapshot ID), 0 (val)]]
 4. LCA of BT ( Read a little bit )
 Go through an example
 5. Divide Two Integers
-6. Big Integer Addition
 
 # Lets learn union find disjoint set!
 
@@ -156,3 +164,46 @@ Shortest Subarray with Sum at Least K
 Minimum Size Subarray Sum
 Max Consecutive Ones III
 Longest Substring with At Most K Distinct Characters
+
+
+# Last Day Prep + Readings:
+1. Multiply Strings...
+Ok just do it slowly...
+2. Pow(x, n)
+Remember you can do log(n) runtime. Remember to do everything in the positive domain.
+3. Generate Parentheses (READ!)
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        if not n: return []
+        left, right, res = n, n, []
+        self.dfs(left, right, res, "")
+        return res
+
+    def dfs(self, left, right, res, path):
+        if right < left: return ## ")" #-> right = 1, left = 2
+
+        if not left and not right: # left = right = 0, means we exhausted all
+            res.append(path)
+            return
+
+        if left: self.dfs(left - 1, right, res, path + "(")
+        if right: self.dfs(left, right - 1, res, path + ")")
+4. Subarray Sum Equals K
+One pass. Prefix sum as the key of the hash table. Get current sum, "two sum" check. Add sum to hash table.
+5. Lowest Common Ancestor of a Binary Tree
+Pretty straight forward. You need both to be true.
+6. Exclusive Time of Functions
+Stack based, start and end is important. Becareful with boundaries.
+
+Abandoned Questions:
+1.Smallest Subtree With All the Deepest Nodes
+This is tricky. It could be a huge tree. We need subtrees.
+2. Palindromic Pairs
+Make into trie.
+3. Word Search II
+Make into trie.
+Kth Largest Element ( this is insertion sort )
+4. Boundary of a Binary Tree
+We need to break this down into multiple parts.
+Left is top down, right is bottom up.
+Left, bottom, right.

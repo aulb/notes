@@ -126,6 +126,7 @@
 |➕ [Minimum To Remove Make Parentheses Valid](https://leetcode.com/problems/minimum-to-remove-make-parentheses-valid/)|✅|
 |➕ [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|✅|
 |➕ [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path)*|✅|
+|➕ [Add Strings](https://leetcode.com/problems/add-strings)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
 |[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|✅|
@@ -183,7 +184,8 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **148/168**
+Completion: **149/169**
+Rapid Easy: **11/11**
 /* Problem not very well defined...
 [Up next](https://github.com/donnemartin/system-design-primer)
 
