@@ -8,6 +8,7 @@ const threeSum = nums => {
   if (!nums || nums.length < 3) return [];
   nums.sort((a, b) => a - b);
   const res = [];
+  // O(n^2) but don't check behind
   for (let i = 0; i < nums.length - 2; i++) {
     let l = i + 1;
     let r = nums.length - 1;

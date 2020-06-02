@@ -98,6 +98,7 @@
 |➕ [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)|✅|
 |➕ [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)|✅|
 |➕ [Minesweeper](https://leetcode.com/problems/minesweeper)|✅|
+|➕ [Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|✅|
 |**String**|
 |[Longest Substring w.o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|✅|
 |[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)||
@@ -184,7 +185,7 @@
 |➕ [Min Stack](https://leetcode.com/problems/min-stack/)|✅|
 |➕ [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|✅|
 
-Completion: **149/169**
+Completion: **150/170**
 Rapid Easy: **11/11**
 /* Problem not very well defined...
 [Up next](https://github.com/donnemartin/system-design-primer)
