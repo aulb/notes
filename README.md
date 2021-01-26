@@ -126,7 +126,7 @@
 |➕ [Minimum To Add Make Parentheses Valid](https://leetcode.com/problems/minimum-to-add-make-parentheses-valid/)|✅|
 |➕ [Minimum To Remove Make Parentheses Valid](https://leetcode.com/problems/minimum-to-remove-make-parentheses-valid/)|✅|
 |➕ [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|✅|
-|➕ [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path)*|✅|
+|➕ [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path)|✅|
 |➕ [Add Strings](https://leetcode.com/problems/add-strings)|✅|
 |**Tree**|
 |[Maximum Depth of BT](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✅|
