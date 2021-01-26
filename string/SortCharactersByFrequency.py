@@ -25,3 +25,5 @@ class Solution:
 
     def getFrequency(self, priorityOrder: int, maxFrequency: int) -> int:
         return -(priorityOrder - 1 - maxFrequency)
+
+# 01/25/2021 Use bucket sort: do hash map ofcourse to keep track, but make a bucket of frequencies
