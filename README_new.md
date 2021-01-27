@@ -4,3 +4,6 @@
 |[Reorganize String](https://leetcode.com/problems/reorganize-string/)||
 |**Binary Tree**|
 |[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)||
+|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)||
+
+DFS - level
