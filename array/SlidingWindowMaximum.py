@@ -15,6 +15,7 @@ class Solution:
         maxes = []
 
         for i in range(len(nums)):
+            # The left side is guaranteed to be the "oldest" index that survives
             if dq and dq[0] <= i - k:
                 dq.popleft()
 
@@ -22,10 +23,12 @@ class Solution:
             if len(dq) == 0:
                 dq.append(i)
             else:
+                # This guarantees the order of maximality. only the highest numbers survive
                 while dq and num > nums[dq[-1]]:
                     dq.pop()
                 dq.append(i)
 
+            # Make sure we have the sliding window size before capturing numbers
             if i + 1 >= k:
                 maxes.append(nums[dq[0]])
 

@@ -16,10 +16,15 @@ class Solution(object):
     # max: 2, 6, 0, 4, 32
     # min: 2, 3, 0, 4, 8 -> it doesn't even matter
     # [2,3,-1,4,8,-2]
-    # max: 2, 6, -1, 4, 32
-    # min: 2, 6, -6, -24, -192
+    # max: 2, 6, -1, 4, 32, 384
+    # min: 2, 6, -6, -24, -192, -64
     max_product = min_so_far = max_so_far = nums[0]
 
+    # [2,3,-1,4,8,-2,-1]
+    # max: 2, 6, -1, 4, 32, 384, 64
+    # min: 2, 6, -6, -24, -192, -64, -384
+    # This question is like maximum subarray, we are using minValue
+    # as a placeholder to keep track of the negatives
     for index in range(1, len(nums)):
       num = nums[index]
       if num < 0: min_so_far, max_so_far = max_so_far, min_so_far
