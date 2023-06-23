@@ -25,3 +25,25 @@ class Solution:
                 number = 0
 
         return sum(vals)
+
+class Solution2:
+    def calculate(self, s: str) -> int:
+        s = s.replace(" ", "") + "+"
+        # There should always be more nums than operators
+        prevOperator = "+"
+        numbers = [0]
+        currentNum = 0
+        for char in s:
+            if char.isdigit(): currentNum = currentNum * 10 + int(char)
+            else:
+                if prevOperator == "+":
+                    numbers.append(currentNum)
+                elif prevOperator == "-":
+                    numbers.append(-currentNum)
+                elif prevOperator == "*":
+                    numbers[-1] *= currentNum
+                elif prevOperator == "/":
+                    numbers[-1] = int(numbers[-1] / currentNum)
+                prevOperator = char
+                currentNum = 0
+        return sum(numbers)
