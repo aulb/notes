@@ -5,6 +5,11 @@ Two pointers, just check both strings to see if one of them makes a palindrome.
 Remember, its a hash map, you can store count AND index.
 `{ count: 1, index: 1}`.
 
+# Find the Celebrity
+Everyone KNOWS the celebrity
+Celebrity knows nobody
+So the celebrity will be caught sooner or later, if one exists
+
 # Longest Palindromic Substring
 [Explanation](https://www.youtube.com/watch?v=y2BD4MJqV20)
 I like the expanding center idea. Its intuitive. O(n^2) runtime. Normal linear run with two expansions.

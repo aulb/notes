@@ -19,3 +19,6 @@
 - Coin change
 - Add and Search Word Data Structure (Good python trick!!)
 - Maximum subarray product
+
+## Practice
+- System design reviews

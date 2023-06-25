@@ -143,8 +143,8 @@
 |[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|✅|
 |[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|✅|
 |➕ [Lowest Common Ancestor of BT](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)||
-|[Word Search II](https://leetcode.com/problems/word-search-ii/)||
-|➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)||
+|[Word Search II](https://leetcode.com/problems/word-search-ii/)|✅|
+|➕ [BT Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|✅|
 |➕ [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|✅|
 |➕ [Vertical Order Traversal of a BT](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
 |➕ [Flatten BT to Linked List](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree)|✅|
