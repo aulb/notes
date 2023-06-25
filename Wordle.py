@@ -69,6 +69,9 @@ def guess_another_word(words, answer, guess):
         if word != guess and check_word(guessResult, guess, word): wordsFiltered.append(word)
     return wordsFiltered
 
+# TODO...
+def play():
+    pass
 
 if __name__ == "__main__":
     # # ['G', 'G', 'G', '_', 'G']
