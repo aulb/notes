@@ -11,14 +11,20 @@ class Solution:
         :type newInterval: Interval
         :rtype: List[Interval]
         """
+        # new interval at the start
+        # new interval at the end
+        # new interval in the middle no merge
+        # new interval in the middle + merge one or more
         left, right = [], []
-        for index, interval in enumerate(intervals):
-            # curr [1,3] newInterval = [4,6]
-            if interval[1] < newInterval[0]:
+        for interval in intervals:
+            cStart, cEnd = interval
+            # curr [1, 3] new [4, 6]
+            if cEnd < newInterval[0]:
                 left.append(interval)
-            elif interval[0] > newInterval[1]:
+            # curr [7, 9] new [4, 6] 
+            elif cStart > newInterval[1]:
                 right.append(interval)
             # [1,3], [2,5]
             else:
-                newInterval = [min(newInterval[0], interval[0]), max(newInterval[1], interval[1])]
+                newInterval = [min(newInterval[0], cStart), max(newInterval[1], cEnd)]
         return left + [newInterval] + right
