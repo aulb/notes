@@ -1,25 +1,31 @@
 from collections import Counter
 def build_guess_result(answer, guess):
     answerCounter = Counter(answer)
+
     # SCARE, SCALE => "G,G,G,_,G"
     # APPLE, PAPER => "Y,Y,G,_,Y"
     # SAUCY, GLASS => "_,_,Y,Y,_" # This a tricky one to do it
+    # STILT - Do a double pass
     result = []
     for index, char in enumerate(guess):
         if char in answerCounter:
             if char == answer[index]:
-                if answerCounter[char] > 0:
-                    result.append("G")
-                else:
-                    result.append("+")
+                result.append("G")
+                # Used for cases like "GUEST" and "STILT"
+                answerCounter[char] -= 1
             else:
-                if answerCounter[char] > 0:
-                    result.append("Y")
-                else:
-                    result.append("+")
-            answerCounter[char] -= 1
+                result.append("Y")
         else:
             result.append("_")
+    
+    # Validate
+    for index, char in enumerate(guess):
+        if result[index] == "Y":
+            if answerCounter[char] == 0:
+                result[index] = "+"
+            else:
+                answerCounter[char] -= 1
+
     return result
 
 def get_max_char_limit(wordResult, word, charToCompare):
@@ -74,13 +80,17 @@ def play():
     pass
 
 if __name__ == "__main__":
-    # # ['G', 'G', 'G', '_', 'G']
-    # print(build_guess_result("SCARE", "SCALE"))
-    # # ['Y', 'Y', 'G', 'Y', '_']
-    # print(build_guess_result("APPLE", "PAPER"))
-    # # ['_', '_', 'Y', 'Y', '_']
-    # result1 = build_guess_result("SAUCY", "GLASS")
-    # print(result1)
+    # ['Y', 'Y', '_', '_', '+'] WRONG
+    # ['Y', '+', '_', '_', 'G'] CORRECT
+    print(build_guess_result("GUEST", "STILT"))
+
+    # ['G', 'G', 'G', '_', 'G']
+    print(build_guess_result("SCARE", "SCALE"))
+    # ['Y', 'Y', 'G', 'Y', '_']
+    print(build_guess_result("APPLE", "PAPER"))
+    # ['_', '_', 'Y', 'Y', '+']
+    result1 = build_guess_result("SAUCY", "GLASS")
+    print(result1)
     # print(get_max_char_limit(["_","+","Y","Y","+"], "GSASS", "S")) # 1
 
     words = ["SAUCY", "GLASS","ASTRO","SANDS"]
