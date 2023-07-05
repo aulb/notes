@@ -49,6 +49,59 @@ class LRUCache:
         node.prev = p
         node.next = self.tail
 
+### Sol 2
+class Node:
+    def __init__(self, key: int, value: int, prevNode: 'Node' = None, nextNode: 'Node' = None):
+        self.key = key
+        self.value = value
+        self.prevNode = prevNode
+        self.nextNode = nextNode
+
+class LRUCache:
+
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.head, self.tail = Node(0, 0), Node(0, 0)
+        self.head.nextNode = self.tail
+        self.tail.prevNode = self.head
+        self.storage = {}
+        # self.length = 0 # No need for self.length can do len(self.storage)
+
+    def get(self, key: int) -> int:
+        if key not in self.storage: return -1
+        # remove from chain add from the back
+        node = self.storage[key]
+        self.remove(node)
+        self.add(node)
+        return node.value
+        
+    def remove(self, node: Node) -> None:
+        # Remove from chain
+        prevNode = node.prevNode
+        nextNode = node.nextNode
+        prevNode.nextNode = nextNode
+        nextNode.prevNode = prevNode
+        del self.storage[node.key] # Book keeping 
+
+    def add(self, node: Node) -> None:
+        # Adding from behind
+        tailPrevNode = self.tail.prevNode
+        tailPrevNode.nextNode = node
+        self.tail.prevNode = node
+        # Link node together
+        node.nextNode = self.tail
+        node.prevNode = tailPrevNode
+        self.storage[node.key] = node
+
+    def put(self, key: int, value: int) -> None:
+        # If key already there, delete and replace
+        if key in self.storage:
+            self.remove(self.storage[key])
+        if len(self.storage) == self.capacity:
+            self.remove(self.head.nextNode)
+        self.add(Node(key, value))
+
+
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
