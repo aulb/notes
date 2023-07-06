@@ -22,3 +22,22 @@
 
 ## Practice
 - System design reviews
+
+
+# 2023 so far
+- Generate Parentheses
+- Combination Sum
+- Letter Combination of a Phone Number
+
+# 2023 todo
+- CD & rate limiter
+- Lodash function
+- LRU
+- More medium string manipulation
+- Logger rate limiter
+
+- System design: rate limiter
+- System design: shopping cart data model
+- System design: payment system
+- System design: notification system
+- System design: LRU w TTL

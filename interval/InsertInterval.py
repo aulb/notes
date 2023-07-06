@@ -28,3 +28,23 @@ class Solution:
             else:
                 newInterval = [min(newInterval[0], cStart), max(newInterval[1], cEnd)]
         return left + [newInterval] + right
+
+class Solution:
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+        left, right = [], []
+        for index, interval in enumerate(intervals):
+            start, end = interval
+            # We are trying to not care about the shit that doesn't matter
+            # If these intervals aren't gonna be merged, why does it matter?
+            # end time is lesser than new start time, go to the left
+            if end < newInterval[0]:
+                left.append(interval)
+            # start time is more than the new end time, go to the right
+            elif start > newInterval[1]:
+                right.append(interval)
+            # everything else gets merged
+            else:
+                newInterval = [min(start, newInterval[0]), max(end, newInterval[1])]
+            # Becareful of newInterval, the value gets renewed everytime. 
+            # We can clear this up by using a different variable.
+        return left + [newInterval] + right
