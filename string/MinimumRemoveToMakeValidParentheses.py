@@ -1,5 +1,23 @@
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
+        if not s: return ""
+        tracker = list(s)
+        brackets = []
+        for index, char in enumerate(s):
+            if char == "(":
+                tracker[index] = "" 
+                brackets.append(index)
+            elif char == ")":
+                if brackets:
+                    idxLatestOpen = brackets.pop()
+                    tracker[idxLatestOpen] = s[idxLatestOpen]
+                    tracker[index] = s[index]
+                else:
+                    tracker[index] = ""
+        return "".join(tracker)
+    
+class Solution:
+    def minRemoveToMakeValid(self, s: str) -> str:
         result = [None for _ in range(len(s))]
         parans = []
         for index, char in enumerate(s):
