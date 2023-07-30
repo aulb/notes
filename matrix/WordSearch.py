@@ -80,3 +80,47 @@ class Solution(object):
         self.dfs(board, node, i, j-1, path+tmp, res)
         self.dfs(board, node, i, j+1, path+tmp, res)
         board[i][j] = tmp
+
+
+class Solution:
+    def __init__(self):
+        self.direction = [[1, 0], [-1, 0], [0, 1], [0, -1]]
+        self.visited = '#'
+
+    def existMultiple(self, board: List[List[str]], words: List[str]) ->: List[str]:
+        result = []
+        for word in words:
+            if self.exists(board, word): 
+                result.append(word)
+        return result
+        
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        # Basic check not extensive check, does not check if uniform list size inside the list
+        if not len(board) or not len(board[0]): return False
+        m, n = len(board), len(board[0])
+        if not len(word) or len(word) > m * n: return False
+        
+        for i in range(m):
+            for j in range(n):
+                if self.helper(board, word, i, j): return True
+        return False
+    
+    def helper(self, board: List[List[str]], word: str, i: int, j: int) -> bool:
+        # Return condition 1: 
+        if word[0] != board[i][j]: return False
+        
+        # Return condition 2:
+        # Last letter is checked by the top condition
+        if len(word) == 1: return True # Nothing else to check
+        
+        # Only "visit" when it is part of the word, otherwise whatever
+        # Direction walk
+        board[i][j] = self.visited
+        for direction in self.direction:
+            newI, newJ = i + direction[0], j + direction[1]
+            if newI >= 0 and newI < len(board) and newJ >= 0 and newJ < len(board[0]) and self.helper(board, word[1:], newI, newJ): 
+                board[i][j] = word[0]
+                return True
+        board[i][j] = word[0]
+        return False
+    
