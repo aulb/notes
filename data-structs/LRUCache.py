@@ -1,4 +1,61 @@
 class Node:
+    def __init__(self, key: int, value: int, prev: Optional['Node'] = None, next: Optional['Node'] = None):
+        self.key = key
+        self.value = value
+        self.prev = prev
+        self.next = next
+
+    def __repr__(self):
+        return f"${self.key}:{self.value}"
+
+class LRUCache:
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.lookup = {}
+        self.sentinel = Node(0, 0)
+        self.sentinel.prev = self.sentinel
+        self.sentinel.next = self.sentinel
+
+    def _add(self, node: Node) -> None:
+        # Always add from behind (for now)
+        prev = self.sentinel.prev 
+        prev.next, self.sentinel.prev = node, node
+        node.next, node.prev = self.sentinel, prev
+        self.lookup[node.key] = node
+
+    def _remove(self, node: Node) -> None:
+        prev, next = node.prev, node.next
+        prev.next, next.prev = next, prev
+        del self.lookup[node.key]
+
+    def get(self, key: int) -> int:
+        if key not in self.lookup: return -1
+        node = self.lookup[key]
+        self._remove(node)
+        self._add(node)
+        return node.value
+        
+    def put(self, key: int, value: int) -> None:
+        if key in self.lookup:
+            node = self.lookup[key]
+            node.value = value
+            self._remove(node)
+            self._add(node)
+            return
+        if len(self.lookup) == self.capacity:
+            self._remove(self.sentinel.next)
+        node = Node(key, value)
+        self._add(node)
+
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
+#### Old below
+
+
+
+class Node:
     def __init__(self, k: int, v: int, prev: 'Node' = None, next: 'Node' = None) -> None:
         self.key = k
         self.val = v
