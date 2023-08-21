@@ -1,6 +1,6 @@
 import random 
 
-NUM_2048 = 2
+STARTING_NUM = 2
 
 class Tile:
   def __init__(self, number=None):
@@ -30,7 +30,7 @@ class Game:
     self.game_over = False
     self.num_of_moves = 0
     self.score = 0
-    self.spawn_number()
+    # self.spawn_number()
 
   def spawn_number(self):
     empty_tiles = []
@@ -39,7 +39,7 @@ class Game:
         curr_tile = self.board[i][j]
         if curr_tile.is_empty(): empty_tiles.append(curr_tile)
     if len(empty_tiles):
-      empty_tiles[random.randrange(0, len(empty_tiles))].number = NUM_2048
+      empty_tiles[random.randrange(0, len(empty_tiles))].number = STARTING_NUM
     else:
       self.game_over = True
 
@@ -60,17 +60,19 @@ class Game:
     else:
       update = "COL"
       direction = 1 if key == "u" else -1
-    self._merge(update, direction)
+    self._update(update, direction)
 
-  def _merge(self, update, direction):
+  def _update(self, update, direction):
     if update == "ROW":
       self._merge_horizontal(direction == -1)
+      self._shift_horizontal(direction == -1)
     else:
       self._merge_vertical(direction == -1)
+      self._shift_vertical(direction == -1)
 
   def _merge_horizontal(self, backward):
     cols = list(range(4))
-    if backward: cols = cols.reverse()
+    if backward: cols.reverse()
     prev_tile = Tile()
     for i in range(4):
       for j in cols:
@@ -82,7 +84,7 @@ class Game:
 
   def _merge_vertical(self, backward):
     rows = list(range(4))
-    if backward: rows = rows.reverse()
+    if backward: rows.reverse()
     prev_tile = Tile()
     for j in range(4):
       for i in rows:
@@ -92,14 +94,29 @@ class Game:
           curr_tile.clear()
         prev_tile = curr_tile
 
-  def _shift(self):
-    pass
-
   def _shift_horizontal(self, backward):
-    pass
+    cols = list(range(4))
+    if backward: cols.reverse()
+    prev_tile = Tile()
+    for i in range(4):
+      for j in cols:
+        curr_tile = self.board[i][j]
+        if curr_tile == prev_tile:
+          prev_tile.double()
+          curr_tile.clear()
+        prev_tile = curr_tile
 
   def _shift_vertical(self, backward):
-    pass
+    rows = list(range(4))
+    if backward: rows.reverse()
+    prev_tile = Tile()
+    for j in range(4):
+      for i in rows:
+        curr_tile = self.board[i][j]
+        if curr_tile == prev_tile:
+          prev_tile.double()
+          curr_tile.clear()
+        prev_tile = curr_tile
 
   def __repr__(self):
     txt = ''
@@ -109,4 +126,5 @@ class Game:
 
 if __name__ == "__main__":
   game = Game()
+  game._merge_vertical(True)
   print(game)
