@@ -31,16 +31,17 @@ class Game:
     self.game_over = False
     self.num_of_moves = 0
     self.score = 0
-    self.spawn_number()
+    self.spawn_number(4)
+    self.spawn_number(2)
 
-  def spawn_number(self):
+  def spawn_number(self, number=STARTING_NUM):
     empty_tiles = []
     for i in range(self.size):
       for j in range(self.size):
         curr_tile = self.board[i][j]
         if curr_tile.is_empty(): empty_tiles.append(curr_tile)
     if len(empty_tiles):
-      empty_tiles[random.randrange(0, len(empty_tiles))].number = STARTING_NUM
+      empty_tiles[random.randrange(0, len(empty_tiles))].number = number
     else:
       self.game_over = True
 
@@ -68,12 +69,17 @@ class Game:
     # 3) "U" is up down +1 
     # 4) "D" is down up -1
     if key in ("L", "R"):
-      self.merge_horizontally(True if key == "L" else False)
-      self.shift_horizontally(True if key == "L" else False)
+      merge = self.merge_horizontally(True if key == "L" else False)
+      shift = self.shift_horizontally(True if key == "L" else False)
     else:
-      self.merge_vertically(True if key == "U" else False)
-      self.shift_vertically(True if key == "U" else False)
-    self.spawn_number()
+      merge = self.merge_vertically(True if key == "U" else False)
+      shift = self.shift_vertically(True if key == "U" else False)
+    print(merge, shift)
+    if merge or shift: 
+      print("New number")
+      self.spawn_number()
+    else:
+      print("No movement")
     print(self)
   
   def _merge_helper(self, curr_tile, prev_tile):
@@ -81,40 +87,52 @@ class Game:
       if prev_tile == curr_tile:
         prev_tile.double()
         curr_tile.clear()
-        return Tile()
-      return curr_tile
-    return prev_tile
+        return (Tile(), True)
+      return (curr_tile, False)
+    return (prev_tile, False)
 
   def merge_horizontally(self, left_to_right):
+    merge = False
     for i in range(self.size):
       prev_tile = Tile()
       for j in (range(self.size) if left_to_right else range(self.size - 1, -1, -1)):
-        prev_tile = self._merge_helper(self.board[i][j], prev_tile)
+        prev_tile, merge_happen = self._merge_helper(self.board[i][j], prev_tile)
+        merge = merge or merge_happen
+    return merge
 
   def merge_vertically(self, top_to_bottom):
+    merge = False
     for j in range(self.size):
       prev_tile = Tile()
       for i in (range(self.size) if top_to_bottom else range(self.size - 1, -1, -1)):
-        prev_tile = self._merge_helper(self.board[i][j], prev_tile)
+        prev_tile, merge_happen = self._merge_helper(self.board[i][j], prev_tile)
+        merge = merge or merge_happen
+    return merge
 
   def shift_horizontally(self, left_shift):
+    shift = False
     for i in range(self.size):
       pj = None
       for j in (range(self.size) if left_shift else range(self.size - 1, -1, -1)):
         if pj is None: pj = j
         if not self.board[i][j].is_empty():
+          shift = self.board[i][pj].is_empty() # This is a true "shift", otherwise it switches with itself
           self.board[i][j], self.board[i][pj] = self.board[i][pj], self.board[i][j]
           pj += (1 if left_shift else -1)
+    return shift
 
   def shift_vertically(self, top_shift):
+    shift = False
     for j in range(self.size):
       pi = None
       for i in (range(self.size) if top_shift else range(self.size - 1, -1, -1)):
         if pi is None: pi = i
         if not self.board[i][j].is_empty():
+          shift = True
           self.board[i][j], self.board[pi][j] = self.board[pi][j], self.board[i][j]
           pi += (1 if top_shift else -1)
-        
+    return shift
+  
   def __repr__(self):
     txt = ''
     for index, row in enumerate(self.board):
