@@ -99,21 +99,21 @@ class Game:
 
   def shift_horizontally(self, left_shift):
     for i in range(self.size):
-      pi, pj = None, None
+      pj = None
       for j in (range(self.size) if left_shift else range(self.size - 1, -1, -1)):
-        if pi is None and pj is None: pi, pj = i, j
+        if pj is None: pj = j
         if not self.board[i][j].is_empty():
-          self.board[i][j], self.board[pi][pj] = self.board[pi][pj], self.board[i][j]
-          pi, pj = i, j + (1 if left_shift else -1)
+          self.board[i][j], self.board[i][pj] = self.board[i][pj], self.board[i][j]
+          pj += (1 if left_shift else -1)
 
   def shift_vertically(self, top_shift):
     for j in range(self.size):
-      pi, pj = None, None
+      pi = None
       for i in (range(self.size) if top_shift else range(self.size - 1, -1, -1)):
-        if pi is None and pj is None: pi, pj = i, j
+        if pi is None: pi = i
         if not self.board[i][j].is_empty():
-          self.board[i][j], self.board[pi][pj] = self.board[pi][pj], self.board[i][j]
-          pi, pj = i + (1 if top_shift else -1), j
+          self.board[i][j], self.board[pi][j] = self.board[pi][j], self.board[i][j]
+          pi += (1 if top_shift else -1)
         
   def __repr__(self):
     txt = ''
